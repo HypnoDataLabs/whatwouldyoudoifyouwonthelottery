@@ -1,0 +1,13 @@
+# dependencies / build
+node_modules/
+out/
+tmp/
+logs/
+
+# python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+*.swp
