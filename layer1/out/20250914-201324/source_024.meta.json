@@ -1,0 +1,34 @@
+{
+  "url": "https://www.masslottery.com/results",
+  "final_url": "https://www.masslottery.com/results",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 3711,
+  "elapsed_sec": 0.468,
+  "fetched_at": "2025-09-14T20:14:21.180605Z",
+  "sha256": "176a3402c710e37a811f7dd93ce80573a92b651e8e309b543d70fadaa53a15aa",
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-length": "3711",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 20:14:21 GMT",
+    "etag": "W/\"e7f-cv1NCeH2i7YhphTVpIyEgIb3L+Y\"",
+    "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=bfW9iJcM9AnwaNVACzH78UpzJBUuBmyUxm04LAMYp%2BE%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1757880861\"}],\"max_age\":3600}",
+    "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=bfW9iJcM9AnwaNVACzH78UpzJBUuBmyUxm04LAMYp%2BE%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1757880861\"",
+    "server": "Heroku",
+    "via": "1.1 heroku-router",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.masslottery.com/results",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

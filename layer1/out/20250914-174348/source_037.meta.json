@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/wild-money.html.html",
+  "final_url": "https://www.rilot.com/en-us/winning-numbers/wild-money.html.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 299796,
+  "elapsed_sec": 0.905,
+  "fetched_at": "2025-09-14T17:44:59.061662Z",
+  "sha256": "eedb9a66358647a1e692edffd6dfac2ec0cf38201a21ed71e1681994ff23acc6",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:44:58 GMT",
+    "content-type": "text/html",
+    "content-length": "299796",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Sun, 07 Sep 2025 06:05:21 GMT",
+    "etag": "\"49314-63e2fdb2dee8b\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T174458Z-r17d7dbb565jgkk6hC1LAXu8rs00000007c000000000932x",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/wild-money.html.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

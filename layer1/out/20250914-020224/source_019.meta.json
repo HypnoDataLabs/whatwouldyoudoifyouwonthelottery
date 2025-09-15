@@ -1,0 +1,28 @@
+{
+  "url": "https://www.arkansaslottery.com/games/winning-numbers",
+  "final_url": "http://ww38.arkansaslottery.com/games/winning-numbers?subid1=20250914-1206-09e7-8620-4dee5e4ecd94",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 18178,
+  "elapsed_sec": 0.551,
+  "fetched_at": "2025-09-14T02:06:10.208902Z",
+  "sha256": "63d8c3e7e911e997645d14222e53149a88bbe54d76d0737a86f57dc418f25f0a",
+  "headers": {
+    "accept-ch": "ua-mobile",
+    "accept-ch-lifetime": "30",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 14 Sep 2025 02:06:10 GMT",
+    "server": "nginx",
+    "vary": "Accept-Encoding",
+    "via": "0.0 Caddy",
+    "x-adblock-key": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALquDFETXRn0Hr05fUP7EJT77xYnPmRbpMy4vk8KYiHnkNpednjOANJcaXDXcKQJN0nXKZJL7TciJD8AoHXK158CAwEAAQ==_QDEA+M+VLSxEP0wcsGzgZs380ynMbeAXCJw9NTNowWAYCQC+/vSeS7Czf8G7VSVgl0FSV9c7TTA0vSspzN6bTQ==",
+    "x-domain": "arkansaslottery.com",
+    "x-pcrew-blocked-reason": "",
+    "x-pcrew-ip-organization": "Frontier Communications",
+    "x-subdomain": "ww38",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

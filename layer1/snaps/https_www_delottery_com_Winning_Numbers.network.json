@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.redditstatic.com/ads/conversions-config/v1/pixel/config/a2_f8bdpdh93yrv_telemetry",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"version_hash\":\"49267bce\",\"url\":\"https://www.redditstatic.com/ads/49267bce/pixel.js\"}"
+  },
+  {
+    "url": "https://pixel-config.reddit.com/pixels/a2_f8bdpdh93yrv/config",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"aam\":{}}\n"
+  }
+]

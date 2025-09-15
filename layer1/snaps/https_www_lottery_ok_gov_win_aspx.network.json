@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://ara.paa-reporting-advertising.amazon/aat?pid=ebba7708-376c-43cf-9a8b-9f57f2660f1c&event=PageView&gtmVersion=3.6&ts=1757885803101&eventSource=amzn.js&uuid=df585520-29f1-416c-9d1b-4cc410cd4e02&region=NA&consentCountryCode=UNKNOWN",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"campaigns\":[\"579145187201403752\"],\"cdId\":\"59f4373ae995f264\",\"cdValue\":3276,\"debugKey\":\"df585520-29f1-416c-9d1b-4cc410cd4e02#101\",\"dedupeEnd\":1757885803763,\"dedupeStart\":1757885803763,\"timestamp\":1757885803763,\"uuid\":\"3963076620781651733\"}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  }
+]

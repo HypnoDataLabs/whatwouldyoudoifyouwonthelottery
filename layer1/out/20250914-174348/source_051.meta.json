@@ -1,0 +1,39 @@
+{
+  "url": "https://walottery.com/WinningNumbers/PastDrawings.aspx?gamename=powerball",
+  "final_url": "https://walottery.com/WinningNumbers/PastDrawings.aspx?gamename=powerball",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 157807,
+  "elapsed_sec": 1.494,
+  "fetched_at": "2025-09-14T17:45:33.099242Z",
+  "sha256": "ae7339e21b374558d7dfc62a52a1cdbdab03022046f8fce214d2277a2768a03c",
+  "headers": {
+    "content-length": "21134",
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 17:45:32 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*.translate.goog",
+    "access-control-expose-headers": "Request-Context",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-aspnet-version": "4.0.30319",
+    "request-context": "appId=cid-v1:78539010-cd97-4d57-afc5-01327f107249",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://walottery.com/WinningNumbers/PastDrawings.aspx?gamename=powerball",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

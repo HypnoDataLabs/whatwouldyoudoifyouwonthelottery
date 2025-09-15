@@ -1,0 +1,43 @@
+{
+  "url": "https://www.valottery.com/results",
+  "final_url": "https://www.valottery.com/404error.aspx?item=%2fresults&user=extranet%5cAnonymous&site=val",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 83146,
+  "elapsed_sec": 0.833,
+  "fetched_at": "2025-09-14T20:15:19.591644Z",
+  "sha256": "082e85cfd7da197aa59211119e1f85d6b63091d431535475b227302cc10316d4",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:15:19 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "19062",
+    "connection": "close",
+    "set-cookie": "ARRAffinitySameSite=acb29e4d8af43e2820582bd622e129034517ed431b85fc3c410720437c85fe06;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.valottery.com",
+    "access-control-allow-origin": "*",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "expires": "-1",
+    "pragma": "no-cache",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000",
+    "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Platform-Version,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Bitness",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-azure-ref": "20250914T201519Z-r17d7dbb565qcvmxhC1LAXz4k800000007p000000000gfcu",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.valottery.com/results",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

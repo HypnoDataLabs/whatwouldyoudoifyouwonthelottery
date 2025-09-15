@@ -1,0 +1,250 @@
+# Pacing / politeness config for Layer 1 fetching
+# If a domain isn't listed, defaults apply. You can override any of:
+# per_host_delay, jitter_min, jitter_max, timeout_sec, max_retries,
+# backoff_base, backoff_cap, respect_robots, headers (dict)
+
+defaults:
+  per_host_delay: 1.0
+  jitter_min: 0.8
+  jitter_max: 2.4
+  timeout_sec: 30
+  max_retries: 3
+  backoff_base: 0.7
+  backoff_cap: 5.0
+  respect_robots: false
+
+domains:
+  # =========================
+  # US multi-state / national
+  # =========================
+  powerball.com:
+    per_host_delay: 1.5
+    max_retries: 4
+    # Force API-style JSON instead of HTML consent pages
+    headers:
+      Accept: "application/json, text/plain, */*"
+      X-Requested-With: "XMLHttpRequest"
+      Referer: "https://www.powerball.com/games/draw-results"
+      Origin: "https://www.powerball.com"
+  www.powerball.com:
+    per_host_delay: 1.5
+    max_retries: 4
+    headers:
+      Accept: "application/json, text/plain, */*"
+      X-Requested-With: "XMLHttpRequest"
+      Referer: "https://www.powerball.com/games/draw-results"
+      Origin: "https://www.powerball.com"
+
+  megamillions.com:
+    per_host_delay: 1.5
+    headers:
+      Accept: "application/json, text/plain, */*"
+      X-Requested-With: "XMLHttpRequest"
+  www.megamillions.com:
+    per_host_delay: 1.5
+    headers:
+      Accept: "application/json, text/plain, */*"
+      X-Requested-With: "XMLHttpRequest"
+
+  luckyforlife.us:
+    per_host_delay: 2.0
+  www.luckyforlife.us:
+    per_host_delay: 2.0
+
+  lottoamerica.com:
+    per_host_delay: 2.0
+  www.lottoamerica.com:
+    per_host_delay: 2.0
+
+  cash4lifelottery.net:
+    per_host_delay: 2.0
+    timeout_sec: 40           # slow TLS handshakes sometimes
+    max_retries: 4
+  www.cash4lifelottery.net:
+    per_host_delay: 2.0
+    timeout_sec: 40
+    max_retries: 4
+
+  # =========================
+  # US state lotteries
+  # =========================
+  calottery.com:             { per_host_delay: 2.0 }
+  www.calottery.com:         { per_host_delay: 2.0 }
+
+  walottery.com:             { per_host_delay: 1.5 }
+  www.walottery.com:         { per_host_delay: 1.5 }
+
+  oregonlottery.org:         { per_host_delay: 1.5 }
+  www.oregonlottery.org:     { per_host_delay: 1.5 }
+
+  arizonalottery.com:        { per_host_delay: 1.5 }
+  www.arizonalottery.com:    { per_host_delay: 1.5 }
+
+  coloradolottery.com:       { per_host_delay: 1.5 }
+  www.coloradolottery.com:   { per_host_delay: 1.5 }
+
+  idaholottery.com:          { per_host_delay: 1.5 }
+  www.idaholottery.com:      { per_host_delay: 1.5 }
+
+  mtolottery.com:            { per_host_delay: 1.8 }
+  www.mtolottery.com:        { per_host_delay: 1.8 }
+
+  wylottery.com:             { per_host_delay: 1.8 }
+  www.wylottery.com:         { per_host_delay: 1.8 }
+
+  nmlottery.com:             { per_host_delay: 1.8 }
+  www.nmlottery.com:         { per_host_delay: 1.8 }
+
+  txlottery.org:             { per_host_delay: 2.0 }
+  www.txlottery.org:         { per_host_delay: 2.0 }
+
+  tnlottery.com:             { per_host_delay: 1.5 }
+  www.tnlottery.com:         { per_host_delay: 1.5 }
+
+  kslottery.com:             { per_host_delay: 1.8 }
+  www.kslottery.com:         { per_host_delay: 1.8 }
+  kansaslottery.com:         { per_host_delay: 1.8 }
+  www.kansaslottery.com:     { per_host_delay: 1.8 }
+
+  molottery.com:             { per_host_delay: 1.8 }
+  www.molottery.com:         { per_host_delay: 1.8 }
+
+  arkansaslottery.com:       { per_host_delay: 1.8 }
+  www.arkansaslottery.com:   { per_host_delay: 1.8 }
+
+  louisianalottery.com:      { per_host_delay: 1.8 }
+  www.louisianalottery.com:  { per_host_delay: 1.8 }
+
+  oklottery.com:             { per_host_delay: 1.8 }
+  www.oklottery.com:         { per_host_delay: 1.8 }
+
+  lottery.sd.gov:            { per_host_delay: 2.0 }
+  www.lottery.sd.gov:        { per_host_delay: 2.0 }
+
+  ndlottery.com:             { per_host_delay: 1.8 }
+  www.ndlottery.com:         { per_host_delay: 1.8 }
+
+  nebraskalottery.com:       { per_host_delay: 1.8 }
+  www.nebraskalottery.com:   { per_host_delay: 1.8 }
+
+  ialottery.com:             { per_host_delay: 1.8 }
+  www.ialottery.com:         { per_host_delay: 1.8 }
+
+  ohiolottery.com:           { per_host_delay: 1.8 }
+  www.ohiolottery.com:       { per_host_delay: 1.8 }
+
+  michiganlottery.com:       { per_host_delay: 2.0 }
+  www.michiganlottery.com:   { per_host_delay: 2.0 }
+
+  illinoislottery.com:       { per_host_delay: 2.0 }
+  www.illinoislottery.com:   { per_host_delay: 2.0 }
+
+  mnelottery.com:            { per_host_delay: 1.8 }
+  www.mnelottery.com:        { per_host_delay: 1.8 }
+
+  wilottery.com:             { per_host_delay: 1.8 }
+  www.wilottery.com:         { per_host_delay: 1.8 }
+
+  in.gov:                    { per_host_delay: 2.2 }
+  www.in.gov:                { per_host_delay: 2.2 }
+
+  nylottery.ny.gov:          { per_host_delay: 2.2 }
+  www.nylottery.ny.gov:      { per_host_delay: 2.2 }
+
+  njlottery.com:             { per_host_delay: 2.0 }
+  www.njlottery.com:         { per_host_delay: 2.0 }
+
+  palottery.state.pa.us:     { per_host_delay: 2.2 }
+  www.palottery.state.pa.us: { per_host_delay: 2.2 }
+
+  masslottery.com:           { per_host_delay: 2.0 }
+  www.masslottery.com:       { per_host_delay: 2.0 }
+
+  rilot.com:                 { per_host_delay: 1.8 }
+  www.rilot.com:             { per_host_delay: 1.8 }
+
+  ctlottery.org:             { per_host_delay: 2.0 }
+  www.ctlottery.org:         { per_host_delay: 2.0 }
+
+  nhlottery.com:             { per_host_delay: 1.8 }
+  www.nhlottery.com:         { per_host_delay: 1.8 }
+
+  vtlottery.com:             { per_host_delay: 1.8 }
+  www.vtlottery.com:         { per_host_delay: 1.8 }
+
+  maine.gov:                 { per_host_delay: 2.2 }
+  www.maine.gov:             { per_host_delay: 2.2 }
+
+  delottery.com:             { per_host_delay: 2.0 }
+  www.delottery.com:         { per_host_delay: 2.0 }
+
+  mdlottery.com:             { per_host_delay: 2.0 }
+  www.mdlottery.com:         { per_host_delay: 2.0 }
+
+  valottery.com:             { per_host_delay: 2.0 }
+  www.valottery.com:         { per_host_delay: 2.0 }
+
+  dclottery.com:             { per_host_delay: 2.0 }
+  www.dclottery.com:         { per_host_delay: 2.0 }
+
+  flalottery.com:            { per_host_delay: 2.0 }
+  www.flalottery.com:        { per_host_delay: 2.0 }
+
+  galottery.com:             { per_host_delay: 2.0 }
+  www.galottery.com:         { per_host_delay: 2.0 }
+
+  nclottery.com:             { per_host_delay: 2.0 }
+  www.nclottery.com:         { per_host_delay: 2.0 }
+
+  sceducationlottery.com:    { per_host_delay: 2.0 }
+  www.sceducationlottery.com:{ per_host_delay: 2.0 }
+
+  kylottery.com:             { per_host_delay: 2.0 }
+  www.kylottery.com:         { per_host_delay: 2.0 }
+
+  mslotteryhome.com:         { per_host_delay: 2.0 }
+  www.mslotteryhome.com:     { per_host_delay: 2.0 }
+
+  # =========
+  # Canada
+  # =========
+  olg.ca:                    { per_host_delay: 2.0 }
+  www.olg.ca:                { per_host_delay: 2.0 }
+
+  # BCLC often requires realistic browser-ish headers to avoid 403
+  bclc.com:
+    per_host_delay: 2.0
+    max_retries: 4
+    headers:
+      Sec-Fetch-Mode: "navigate"
+      Sec-Fetch-Site: "none"
+      Sec-Fetch-Dest: "document"
+  www.bclc.com:
+    per_host_delay: 2.0
+    max_retries: 4
+    headers:
+      Sec-Fetch-Mode: "navigate"
+      Sec-Fetch-Site: "none"
+      Sec-Fetch-Dest: "document"
+
+  wclc.com:                  { per_host_delay: 2.0 }
+  www.wclc.com:              { per_host_delay: 2.0 }
+
+  lotoquebec.com:            { per_host_delay: 2.0 }
+  lotteries.lotoquebec.com:  { per_host_delay: 2.0 }
+  www.lotoquebec.com:        { per_host_delay: 2.0 }
+
+  alc.ca:                    { per_host_delay: 2.0 }
+  www.alc.ca:                { per_host_delay: 2.0 }
+
+  # =========================
+  # UK / Europe / International
+  # =========================
+  national-lottery.co.uk:    { per_host_delay: 2.2 }
+  www.national-lottery.co.uk:{ per_host_delay: 2.2 }
+
+  euro-millions.com:         { per_host_delay: 2.2 }
+  www.euro-millions.com:     { per_host_delay: 2.2 }
+
+  salottery.co.za:           { per_host_delay: 2.2 }
+  www.salottery.co.za:       { per_host_delay: 2.2 }

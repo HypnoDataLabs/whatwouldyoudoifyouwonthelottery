@@ -1,0 +1,24 @@
+{
+  "url": "https://www.ctlottery.org/winningnumbers",
+  "final_url": "https://www.ctlottery.org/winningnumbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 50281,
+  "elapsed_sec": 0.545,
+  "fetched_at": "2025-09-14T02:07:26.889731Z",
+  "sha256": "74d4bc4d5bb4214749d4a5e6536b235f25933c831e7cdb24b0e0a5186d6ac667",
+  "headers": {
+    "content-length": "23052",
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 02:07:26 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "set-cookie": "ARRAffinitySameSite=52fadb4d1d94f1c8adb998139fa6118b19c672d1e445bcbe62f5704ac5174dbb;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.ctlottery.org",
+    "vary": "Accept-Encoding",
+    "x-aspnet-version": "4.0.30319",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

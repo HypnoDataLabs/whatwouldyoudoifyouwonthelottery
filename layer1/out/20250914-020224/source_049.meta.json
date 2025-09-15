@@ -1,0 +1,23 @@
+{
+  "url": "https://www.kylottery.com/winning-numbers",
+  "final_url": "https://www.kylottery.com/apps/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 315830,
+  "elapsed_sec": 0.958,
+  "fetched_at": "2025-09-14T02:08:51.157960Z",
+  "sha256": "4c74d472287b9f705332dc494ef997387b74971c31366b2b89fec57ace9f8dc5",
+  "headers": {
+    "set-cookie": "cookiesession1=678A3E0D69CA9C7B97EA17E04AB69BC1;Expires=Mon, 14 Sep 2026 02:08:50 GMT;Path=/;HttpOnly",
+    "vary": "Origin",
+    "server": "OpenCms/17.0",
+    "last-modified": "Sun, 14 Sep 2025 02:08:50 GMT",
+    "cache-control": "public, max-age=0",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "315830",
+    "date": "Sun, 14 Sep 2025 02:08:50 GMT",
+    "connection": "close",
+    "strict-transport-security": "max-age=15552000; includeSubDomains"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

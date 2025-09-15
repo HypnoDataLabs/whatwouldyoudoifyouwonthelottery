@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>What Would You Do If You Won The Lottery</title>
+  <meta name="description" content="Live lottery draws as articles and datasets." />
+
+  <style>
+    :root{
+      --gold:#ffd700;
+      --ink:#000;
+      --surface:#111;
+      --line:#333;
+      --link:#8ab4ff;
+    }
+
+    /* Base */
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui, Arial, sans-serif;
+      color:#fff;
+      display:flex;
+      flex-direction:column;
+      min-height:100vh;
+      background:#000; /* solid hero background fallback */
+    }
+
+    /* HERO (solid black, logo + title + chips) */
+    .hero{
+      background:#000;
+      text-align:center;
+      padding:40px 20px 28px;
+    }
+    .hero .logo{
+      width:120px; height:auto; display:block; margin:0 auto 14px;
+    }
+    .hero h1{
+      margin:10px 0 8px;
+      font-size:clamp(1.8rem,3.4vw,2.6rem);
+      text-shadow:0 3px 12px rgba(0,0,0,.8), 0 0 12px rgba(255,215,0,.6);
+    }
+    .hero p{
+      margin:0 auto;
+      max-width:720px;
+      font-size:1.05rem;
+      line-height:1.6;
+      text-shadow:0 2px 6px rgba(0,0,0,.85);
+    }
+    .hero nav{ margin-top:16px; }
+    .chip{
+      display:inline-block;
+      margin:0 8px;
+      padding:6px 12px;
+      border-radius:10px;
+      background:rgba(0,0,0,.45);
+      color:var(--gold);
+      box-shadow:0 0 12px rgba(255,215,0,.35);
+      text-decoration:none;
+      transition:all .18s ease;
+    }
+    .chip:hover{
+      background:var(--gold);
+      color:#000;
+      box-shadow:0 0 16px rgba(255,215,0,.75);
+    }
+
+    /* WALLPAPER STAGE (fills the rest) */
+    .stage{
+      flex:1;                 /* fill below-hero space */
+      position:relative;
+      /* IMPORTANT: use RELATIVE path since index.html is in /public */
+      background:url("assets/wallpaper.png") center center / cover no-repeat;
+    }
+    .stage::before{
+      content:"";
+      position:absolute; inset:0;
+      background:rgba(0,0,0,.25); /* light overlay for readability */
+    }
+
+    /* Content on top of wallpaper */
+    .container{
+      position:relative; z-index:1;
+      max-width:900px; margin:0 auto;
+      padding:56px 20px 64px;
+      text-align:center;
+    }
+    .container h2{
+      font-size:2rem; margin-bottom:1rem;
+      color:var(--gold);
+      text-shadow:0 0 8px rgba(255,215,0,.6);
+    }
+    .container a{
+      color:var(--link); font-weight:bold; font-size:1.15rem; text-decoration:none;
+    }
+    .container a:hover{
+      color:#ff69b4; text-shadow:0 0 8px rgba(255,105,180,.7);
+    }
+
+    /* Footer */
+    footer{
+      text-align:center; padding:18px;
+      font-size:.9rem; color:#aaa;
+      background:#111; border-top:1px solid #333;
+    }
+    footer a{ color:var(--link); text-decoration:none; }
+    footer a:hover{ color:var(--gold); text-shadow:0 0 6px rgba(255,215,0,.7); }
+  </style>
+</head>
+<body>
+  <!-- HERO (solid black) -->
+  <header class="hero">
+    <!-- Put your logo file at: public/assets/captain-keno-logo.png -->
+    <img src="assets/captain-keno-logo.png" alt="Captain Keno Logo" class="logo" />
+    <h1>What Would You Do If You Won The Lottery?</h1>
+    <p>Captain Keno and crew track the draws — we publish live datasets and daily blogs.</p>
+    <nav>
+      <a class="chip" href="/blog/">Blog</a>
+      <a class="chip" href="/data/">Data</a>
+      <a class="chip" href="/developers/">Developers</a>
+    </nav>
+  </header>
+
+  <!-- WALLPAPER (fills remainder of page) -->
+  <section class="stage">
+    <main class="container">
+      <h2>Latest</h2>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li><a href="/blog/lottery-draws.html">Latest Lottery Draws</a></li>
+      </ul>
+    </main>
+  </section>
+
+  <footer>
+    <a href="/planets.html">Planets</a> · <a href="/license.html">License</a>
+  </footer>
+</body>
+</html>

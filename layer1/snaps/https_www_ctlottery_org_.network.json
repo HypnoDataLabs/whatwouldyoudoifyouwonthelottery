@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://s.yimg.com/wi/config/10204113.json",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"pixelId\":10204113,\"use1stPartyCookies\":false}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  }
+]

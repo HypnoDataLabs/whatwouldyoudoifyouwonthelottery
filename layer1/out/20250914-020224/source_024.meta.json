@@ -1,0 +1,24 @@
+{
+  "url": "https://www.nebraskalottery.com/winners",
+  "final_url": "http://ww25.nebraskalottery.com/winners?subid1=20250914-1206-23a9-ae10-ad610eeddcd9",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1274,
+  "elapsed_sec": 0.493,
+  "fetched_at": "2025-09-14T02:06:24.091741Z",
+  "sha256": "3cfebb750883bd4cebea429e11adb6fe38b77d50cdf2c2836e9001a09ffa096d",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:06:23 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "1274",
+    "x-request-id": "c0caf99c-8755-47f3-b00c-4ec0b568bddd",
+    "cache-control": "no-store, max-age=0",
+    "accept-ch": "sec-ch-prefers-color-scheme",
+    "critical-ch": "sec-ch-prefers-color-scheme",
+    "vary": "sec-ch-prefers-color-scheme",
+    "x-adblock-key": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_TJErPBiSpK58X9s79VvPyUGFFb1VwjzYxnrbUio1r+6C+YGMRvshf47qDM5eifmqjIm3sg6bXxrpMbw9w5Tyog==",
+    "set-cookie": "parking_session=c0caf99c-8755-47f3-b00c-4ec0b568bddd; expires=Sun, 14 Sep 2025 02:21:24 GMT; path=/",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

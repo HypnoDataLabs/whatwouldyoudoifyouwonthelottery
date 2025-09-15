@@ -1,0 +1,8 @@
+[
+  {
+    "url": "https://www.mslottery.com/wp-admin/admin-ajax.php",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\"success\":true,\"data\":3284391}"
+  }
+]

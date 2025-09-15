@@ -1,0 +1,20 @@
+{
+  "url": "https://nclottery.com/Winner-Connect",
+  "final_url": "https://nclottery.com/Pages/error_404.aspx",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10476,
+  "elapsed_sec": 0.548,
+  "fetched_at": "2025-09-14T02:08:36.800876Z",
+  "sha256": "51e254fe4eb6f5af919bc0cfe5504052762f1e8adaeb3014a4e53139f57bd223",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:08:36 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "10476",
+    "connection": "close",
+    "set-cookie": "AWSALBCORS=E8yvbu2e50VzM3o0SLs6yxcdYWSW1I9GjCIjG1DCjEI00lzycglW5OiQs7rfqTSUpu5BdecAfN7XjXQjLSN66ZcC7yTFDGEyl6POb54cx5XfQaoSZV8Cv+J9qe1D; Expires=Sun, 21 Sep 2025 02:08:36 GMT; Path=/; SameSite=None; Secure",
+    "cache-control": "private",
+    "server": "Microsoft-IIS/10.0"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

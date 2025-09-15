@@ -1,0 +1,27 @@
+{
+  "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+  "final_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+  "status": 200,
+  "content_type": "text/xml",
+  "bytes": 7236,
+  "elapsed_sec": 0.251,
+  "fetched_at": "2025-09-14T04:14:14.905782Z",
+  "sha256": "36c3f491c0bf573e9995ccf8566b913ec668e952512781a07e676204eb0cccfe",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 04:14:14 GMT",
+    "content-type": "text/xml; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "cf-ray": "97ed0e6ded6c5027-LAX",
+    "cf-cache-status": "DYNAMIC",
+    "cache-control": "private, max-age=0",
+    "set-cookie": "__cfwaitingroom=ChhKa0xnWWdQZHZrRXlSbU5GK0FId1FRPT0SkAIvdmljME9FMDBNdU85SEZGUGJYVU9jMkZrMjBIK1FTbkVJbGNUcmx0Ym9ZU25WQ3FQTEFDYlJobkZ3eXRFalFzSHAxTDB2TW1Wb2piVEZtcHRrTkRoOWoyaEpXWUlGMTdidFBlVi9KVW5OOGkwTEJ0c2ZhdnpHNnRiL255TGFNSE9hc3pNS0FCZzlwd3RuWEg4V1FaczQwbjNrcUVxZC80eTVyNk9kL21GaC9ab1hCZmVzeTBJM1NHejhZMXNaU0RDV3dYdENaWnd5M0prTzVTblo5N0RJbFFvTC9ERnJNRFlXWXpZM1JQTzcwb0oyQk50alI4eFMvZUk1SnhhdFNKSHAzdllyL1ZNR05lblpiTA%3D%3D; Path=/; Expires=Sun, 14 Sep 2025 04:15:14 GMT; HttpOnly; Secure; SameSite=None; Partitioned",
+    "x-aspnet-version": "4.0.30319",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "ASP.NET",
+    "vary": "Accept-Encoding",
+    "server": "cloudflare"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

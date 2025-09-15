@@ -1,0 +1,33 @@
+{
+  "url": "https://www.valottery.com/winningnumbers",
+  "final_url": "https://www.valottery.com/404error.aspx?item=%2fwinningnumbers&user=extranet%5cAnonymous&site=val",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 83282,
+  "elapsed_sec": 0.734,
+  "fetched_at": "2025-09-14T02:07:40.467506Z",
+  "sha256": "e209f176d7fdbc82f478cf7ad531e32428b880aff7bb4a7485839387808a1002",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:07:40 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "19039",
+    "connection": "close",
+    "set-cookie": "ARRAffinitySameSite=25e5d02bc8271105cce14580db15a04b6cc1d831a98e4c947d0a5b9b2b8d245f;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.valottery.com",
+    "access-control-allow-origin": "*",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "expires": "-1",
+    "pragma": "no-cache",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000",
+    "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Platform-Version,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Bitness",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-azure-ref": "20250914T020740Z-r17d7dbb565nnt4zhC1LAXy7fw00000004dg000000001gcg",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=7154612&time=1757885887559&url=https%3A%2F%2Fwyolotto.com%2Fwinning-numbers",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  }
+]

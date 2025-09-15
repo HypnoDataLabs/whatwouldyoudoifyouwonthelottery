@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Latest US Lottery Draw Results",
+  "description": "Daily compiled lottery draw numbers (Powerball, Mega Millions, Cash4Life) with official source attribution.",
+  "keywords": [
+    "lottery",
+    "winning numbers",
+    "Powerball",
+    "Mega Millions",
+    "Cash4Life",
+    "jackpot",
+    "results",
+    "dataset"
+  ],
+  "dateModified": "2025-09-15T20:00:00.140058Z",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HypnoData",
+    "url": "https://whatwouldyoudoifyouwonthelottery.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.csv"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "numbers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "jackpot_usd",
+      "description": "primary jackpot (usually annuity)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "jackpot_type",
+      "description": "annuity or cash"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "cash_value_usd",
+      "description": "cash option value when known"
+    }
+  ]
+}

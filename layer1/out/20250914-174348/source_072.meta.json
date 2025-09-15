@@ -1,0 +1,39 @@
+{
+  "url": "https://walottery.com/WinningNumbers/PastDrawings.aspx?gamename=hit5&unittype=day&unitcount=180",
+  "final_url": "https://walottery.com/WinningNumbers/PastDrawings.aspx?gamename=hit5&unittype=day&unitcount=180",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1956987,
+  "elapsed_sec": 5.188,
+  "fetched_at": "2025-09-14T17:46:15.080706Z",
+  "sha256": "6693fbc984b851ba11191e1d7d2d18f55fb88c43fb32edf61ec972bc2d99823e",
+  "headers": {
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 17:46:13 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*.translate.goog",
+    "access-control-expose-headers": "Request-Context",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-aspnet-version": "4.0.30319",
+    "request-context": "appId=cid-v1:78539010-cd97-4d57-afc5-01327f107249",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://walottery.com/WinningNumbers/PastDrawings.aspx?gamename=hit5&unittype=day&unitcount=180",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

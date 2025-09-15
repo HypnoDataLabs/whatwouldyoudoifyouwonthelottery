@@ -1,0 +1,39 @@
+{
+  "url": "https://www.sceducationlottery.com/Games/Draw/",
+  "final_url": "https://www.sceducationlottery.com/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 92075,
+  "elapsed_sec": 1.012,
+  "fetched_at": "2025-09-14T20:15:06.731151Z",
+  "sha256": "ce771eb571f133b71a345e39dd217a52d6fbe065a6889e3e6b5aac59476f1694",
+  "headers": {
+    "cache-control": "private, max-age=300",
+    "content-type": "text/html; charset=utf-8",
+    "expires": "Sun, 14 Sep 2025 20:20:06 GMT",
+    "last-modified": "Sun, 14 Sep 2025 20:15:06 GMT",
+    "vary": "*",
+    "server": "Microsoft-IIS/10.0",
+    "x-aspnetmvc-version": "5.2",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "__RequestVerificationToken=DOuhBnJsnKGkxGfdlD79sZAd8G8GXzXxr7S5x6Vob4DKHKWQWA31KXFXGQ9KBGWhSWpmm-ZRPrP8efekvzEIfWQaB9Jr63oyPFseefui3qg1; path=/; secure; HttpOnly",
+    "x-content-type_options": "nosniff",
+    "x-xss-protection": "1;mode=block",
+    "x-powered-by": "ASP.NET",
+    "strict-transport-security": "max-age=31536000",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "date": "Sun, 14 Sep 2025 20:15:06 GMT",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.sceducationlottery.com/Games/Draw/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

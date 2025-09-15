@@ -1,0 +1,36 @@
+{
+  "url": "https://www.ohiolottery.com/winningnumbers",
+  "final_url": "https://www.ohiolottery.com/winningnumbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 66093,
+  "elapsed_sec": 0.348,
+  "fetched_at": "2025-09-14T20:14:53.470723Z",
+  "sha256": "fdbd08fbbe70b820982dd945020ea7ab1bc0a10a659c0653cdc45fa645397935",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:53 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "x-xss-protection": "1; mode=block",
+    "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "gzip",
+    "cf-ray": "97f28d9ece33f554-LAX"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.ohiolottery.com/winningnumbers",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

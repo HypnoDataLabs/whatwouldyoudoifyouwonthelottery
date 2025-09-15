@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dataset: Latest Lottery Draws - What Would You Do If You Won The Lottery</title>
+  <meta name="description" content="Lottery results dataset (JSON & CSV) for agents and developers." />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="canonical" href="https://whatwouldyoudoifyouwonthelottery.com/data/lottery-draws.html" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Latest Lottery Draws", "identifier": "latest-draws", "url": "https://whatwouldyoudoifyouwonthelottery.com/data/lottery-draws.html", "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.json"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.csv"}], "isAccessibleForFree": true, "license": "https://whatwouldyoudoifyouwonthelottery.com/license.html"}</script>
+</head>
+<body>
+  <header><a href="/">Home</a> · <a href="/blog/">Blog</a> · <a href="/developers/">Developers</a></header>
+  <main class="container">
+    <h1>Dataset: Latest Lottery Draws</h1>
+    <p>Download: <a href="/datasets/latest-draws.json">JSON</a> (sha256: d33ae55356a6eee0cda1ad2ecba2578c9d47f48aa6b9d646637ffa4a16750e30) · <a href="/datasets/latest-draws.csv">CSV</a> (sha256: 0c99b509a66a09a5042d7b2e8b55bf09d2b668dc9b473ca7bc10f001c58a4103)</p>
+    <h3>Schema</h3>
+    <pre><code>date, game, numbers[], jackpot_usd, winners, source_url, fetched_at, version, last_updated</code></pre>
+    <h3>Examples</h3>
+    <pre><code># curl
+curl -s https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.json | jq .records[0]
+
+# node
+const res = await fetch("https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.json");
+const data = await res.json();
+
+# python
+import pandas as pd
+df = pd.read_csv("https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.csv")
+print(df.head())</code></pre>
+  </main>
+  <footer><a href="/planets.html">Planets</a> · <a href="/license.html">License</a></footer>
+</body>
+</html>

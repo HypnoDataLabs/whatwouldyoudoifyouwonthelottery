@@ -1,0 +1,13 @@
+{
+  "run_id": "20250914-015303",
+  "files": {
+    "json": {
+      "path": "layer2/out/20250914-015303/latest-draws.json",
+      "sha256": "30a31ee2269d96167e83847cd35bf453705dd5c288cc9b5309974cf5662b179e"
+    },
+    "csv": {
+      "path": "layer2/out/20250914-015303/latest-draws.csv",
+      "sha256": "65c86aab080fdf21e45baf4a7cb792e1b6ab55daedab540a4d2191d795596316"
+    }
+  }
+}

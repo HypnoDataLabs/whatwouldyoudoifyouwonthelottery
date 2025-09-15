@@ -1,0 +1,6 @@
+{
+  "url": "https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json",
+  "started_at": "2025-09-15T00:17:07.429Z",
+  "final_url": "https://www.powerball.com/previous-results?gc=powerball",
+  "status": 200
+}

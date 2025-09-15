@@ -1,0 +1,590 @@
+{
+  "run_id": "20250914-012551",
+  "fetched": [
+    {
+      "url": "https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json",
+      "ok": true,
+      "path": "layer1/out/20250914-012551/source_001.bin",
+      "bytes": 10024,
+      "content_type": "text/html",
+      "fetched_at": "2025-09-14T01:25:52.000913Z",
+      "error": null
+    },
+    {
+      "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "ok": true,
+      "path": "layer1/out/20250914-012551/source_002.bin",
+      "bytes": 7236,
+      "content_type": "text/xml",
+      "fetched_at": "2025-09-14T01:25:52.240837Z",
+      "error": null
+    },
+    {
+      "url": "https://www.luckyforlife.us/ (results page)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (results page)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.lottoamerica.com/ (results page)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (results page)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.cash4lifelottery.net/ (results hub)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (results hub)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.calottery.com/draw-games (CA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/draw-games (CA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.walottery.com/WinningNumbers/ (WA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/WinningNumbers/ (WA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.oregonlottery.org/games/draw-games/ (OR)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/draw-games/ (OR)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.arizonalottery.com/en/winning-numbers/ (AZ)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en/winning-numbers/ (AZ)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.coloradolottery.com/en/games/lotto/ (CO)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en/games/lotto/ (CO)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.idaholottery.com/games/draw/ (ID)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/draw/ (ID)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.mtolottery.com/en/view/winning-numbers/ (MT)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en/view/winning-numbers/ (MT)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.wylottery.com/winning/ (WY)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning/ (WY)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.nmlottery.com/games/ (NM)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/ (NM)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.utah.gov/ (UT has no state lottery; skip)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (UT has no state lottery; skip)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.txlottery.org/export/sites/lottery/Games/Winning_Numbers/ (TX)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/export/sites/lottery/Games/Winning_Numbers/ (TX)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.tnlottery.com/winning-numbers/ (TN)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers/ (TN)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.kslottery.com/winning-numbers/ (KS)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers/ (KS)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.molottery.com/winningNumbers (MO)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winningNumbers (MO)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.arkansaslottery.com/games/winning-numbers (AR)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/winning-numbers (AR)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.louisianalottery.com/winning-numbers (LA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (LA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.oklottery.com/winning (OK)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning (OK)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.sdroads.org/ (SD lottery: https://lottery.sd.gov/game/winning/)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (SD lottery: https://lottery.sd.gov/game/winning/)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.ndlottery.com/winning-numbers/ (ND)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers/ (ND)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.nebraskalottery.com/winners (NE)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winners (NE)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.iialottery.com/ (IA winning numbers: https://www.ialottery.com/winning)  # (double-check path)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (IA winning numbers: https://www.ialottery.com/winning)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.ohiolottery.com/WinningNumbers (OH)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/WinningNumbers (OH)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.michiganlottery.com/games/draw-games (MI)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/draw-games (MI)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.illinoislottery.com/dbg/results (IL)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/dbg/results (IL)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.mnelottery.com/Winning_Numbers (MN)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/Winning_Numbers (MN)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.wilottery.com/winning-numbers (WI)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (WI)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.in.gov/hoosierlottery/hoosier-lottery/winning-numbers/ (IN)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/hoosierlottery/hoosier-lottery/winning-numbers/ (IN)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.nylottery.ny.gov/winning-numbers (NY)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (NY)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.njlottery.com/en-us/drawgames/results.html (NJ)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en-us/drawgames/results.html (NJ)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.palottery.state.pa.us/Games/Winning-Numbers.aspx (PA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/Games/Winning-Numbers.aspx (PA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.masslottery.com/winning-numbers (MA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (MA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.rilot.com/en-us/winning-numbers.html (RI)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en-us/winning-numbers.html (RI)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.ctlottery.org/winningnumbers (CT)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winningnumbers (CT)' (found at least ' ')"
+    },
+    {
+      "url": "https://nhlottery.com/winning-numbers (NH)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (NH)' (found at least ' ')"
+    },
+    {
+      "url": "https://vtlottery.com/games (VT)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games (VT)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.maine.gov/lottery/winning (ME)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/lottery/winning (ME)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.delottery.com/winning (DE)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning (DE)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.mdlottery.com/winning-numbers/ (MD)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers/ (MD)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.valottery.com/winningnumbers (VA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winningnumbers (VA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.dclottery.com/games/winning-numbers (DC)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/winning-numbers (DC)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.flalottery.com/winningNumbers (FL)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winningNumbers (FL)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.galottery.com/en-us/winning-numbers.html (GA)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en-us/winning-numbers.html (GA)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.nclottery.com/Winner-Connect (NC)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/Winner-Connect (NC)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.sceducationlottery.com/games/winningnumbers (SC)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/winningnumbers (SC)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.valottery.com/winningnumbers (VA)  # (also listed above Mid-Atlantic)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winningnumbers (VA)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.kylottery.com/winning-numbers (KY)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (KY)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.msLotteryHome.com/games/winning-numbers/ (MS)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/winning-numbers/ (MS)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.alottery.com/ (AL has no state lottery; skip)  # placeholder note",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/ (AL has no state lottery; skip)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.wylottery.com/winning/ (WY)  # also above",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning/ (WY)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.idaholottery.com/games/draw/ (ID)  # also above",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/games/draw/ (ID)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.kansaslottery.com/winning-numbers (KS)  # also above",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers (KS)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.montanalottery.com/en/view/winning-numbers/ (MT)  # also above",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en/view/winning-numbers/ (MT)  ' (found at least ' ')"
+    },
+    {
+      "url": "https://www.olg.ca/en/lottery.html (Ontario)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en/lottery.html (Ontario)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.bclc.com/lottery.html (British Columbia)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/lottery.html (British Columbia)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.wclc.com/winning-numbers/ (Western Canada)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/winning-numbers/ (Western Canada)' (found at least ' ')"
+    },
+    {
+      "url": "https://lotteries.lotoquebec.com/en/winning-numbers (Quebec)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/en/winning-numbers (Quebec)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.alc.ca/content/alc/en/lotto-and-draw.html (Atlantic)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/content/alc/en/lotto-and-draw.html (Atlantic)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.national-lottery.co.uk/results (UK National Lottery)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/results (UK National Lottery)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.euro-millions.com/results (EuroMillions hub)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/results (EuroMillions hub)' (found at least ' ')"
+    },
+    {
+      "url": "https://www.salottery.co.za/results (South Africa, example for international pattern)",
+      "ok": false,
+      "path": null,
+      "bytes": 0,
+      "content_type": null,
+      "fetched_at": null,
+      "error": "URL can't contain control characters. '/results (South Africa, example for international pattern)' (found at least ' ')"
+    }
+  ]
+}

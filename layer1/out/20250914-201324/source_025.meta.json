@@ -1,0 +1,35 @@
+{
+  "url": "https://www.michiganlottery.com/lottery-results",
+  "final_url": "https://www.michiganlottery.com/lottery-results",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 6111,
+  "elapsed_sec": 0.287,
+  "fetched_at": "2025-09-14T20:14:22.719207Z",
+  "sha256": "4f9ea03dd1dddf643f27053814d935becd6f2cae32f1804a2c1535e7d80a2c1d",
+  "headers": {
+    "content-length": "6111",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 20:14:22 GMT",
+    "etag": "W/\"17df-mPi2HFLzDOCV2X+UZnOkYhPAy+k\"",
+    "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=DxI3IToS1M71V5i57vZ9%2FZd4NzDoOPq74xBCLJjFVjk%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1757880862\"}],\"max_age\":3600}",
+    "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=DxI3IToS1M71V5i57vZ9%2FZd4NzDoOPq74xBCLJjFVjk%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1757880862\"",
+    "server": "Heroku",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "via": "1.1 heroku-router",
+    "x-powered-by": "Express",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.michiganlottery.com/lottery-results",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.calottery.com/draw-games",
+  "final_url": "https://www.calottery.com/en/draw-games",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 103278,
+  "elapsed_sec": 0.529,
+  "fetched_at": "2025-09-14T02:02:34.390801Z",
+  "sha256": "7251553e5e167b02945446bc86bec629dcbc43a824cc40275278b21650b107d9",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:02:34 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "cache-control": "no-cache, no-store",
+    "pragma": "no-cache",
+    "expires": "-1",
+    "set-cookie": "TS01dc4fc6=0173316c361611372da917f79c06a0898353912647473aea86dafa2a663659574263b06c76c843b422741a35f366ce1b22e4a2735f; Path=/; Secure; HttpOnly; SameSite=Strict; ",
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+    "access-control-allow-methods": "GET",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "frame-ancestors 'self'; object-src 'self';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-envoy-upstream-service-time": "276",
+    "x-volterra-location": "sv10-sjc",
+    "server": "volt-adc",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

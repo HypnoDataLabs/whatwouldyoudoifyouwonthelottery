@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lottery Draws Dataset",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "game": {
+            "type": "string"
+          },
+          "numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "jackpot_usd": {
+            "type": "number"
+          },
+          "winners": {
+            "type": "integer"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "fetched_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "date",
+          "game",
+          "numbers",
+          "source_url",
+          "fetched_at"
+        ]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "last_updated",
+    "records"
+  ]
+}

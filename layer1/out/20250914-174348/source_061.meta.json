@@ -1,0 +1,39 @@
+{
+  "url": "https://walottery.com/WinningNumbers/CheckYourTicket.aspx?gamename=match4",
+  "final_url": "https://walottery.com/WinningNumbers/CheckYourTicket.aspx?gamename=match4",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 37031,
+  "elapsed_sec": 0.427,
+  "fetched_at": "2025-09-14T17:45:50.971736Z",
+  "sha256": "85f987849f00b123410ddcf7f4c88dd2660c66c96d7677d4a80c7ad41e26c585",
+  "headers": {
+    "content-length": "10866",
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 17:45:50 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*.translate.goog",
+    "access-control-expose-headers": "Request-Context",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-aspnet-version": "4.0.30319",
+    "request-context": "appId=cid-v1:78539010-cd97-4d57-afc5-01327f107249",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://walottery.com/WinningNumbers/CheckYourTicket.aspx?gamename=match4",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

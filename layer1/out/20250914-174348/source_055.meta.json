@@ -1,0 +1,38 @@
+{
+  "url": "https://walottery.com/JackpotGames/assets/css/walottery.jackpot-games.min.css?v=06032025_1051",
+  "final_url": "https://walottery.com/JackpotGames/assets/css/walottery.jackpot-games.min.css?v=06032025_1051",
+  "status": 200,
+  "content_type": "text/css",
+  "bytes": 51325,
+  "elapsed_sec": 0.193,
+  "fetched_at": "2025-09-14T17:45:40.182052Z",
+  "sha256": "7048f0f1d45da4f8c5412ab1d5bd28bb241d8f6a060ea011a8cd1f4f5c7713d4",
+  "headers": {
+    "content-length": "7941",
+    "connection": "close",
+    "content-type": "text/css",
+    "date": "Sun, 14 Sep 2025 17:45:40 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "accept-ranges": "bytes",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*.translate.goog",
+    "content-encoding": "gzip",
+    "etag": "\"e3dac31bbc7dc1:0\"",
+    "last-modified": "Thu, 07 Aug 2025 16:55:41 GMT",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://walottery.com/JackpotGames/assets/css/walottery.jackpot-games.min.css?v=06032025_1051",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

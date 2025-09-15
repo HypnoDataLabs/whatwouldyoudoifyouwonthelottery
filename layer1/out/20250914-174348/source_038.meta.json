@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/lucky-for-life.html.html",
+  "final_url": "https://www.rilot.com/en-us/winning-numbers/lucky-for-life.html.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 299830,
+  "elapsed_sec": 0.76,
+  "fetched_at": "2025-09-14T17:45:01.627128Z",
+  "sha256": "4609e1996612d9caa8b3c19d9308dff560bf5565c7dbf2267d61ce293c8d5fa0",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:45:01 GMT",
+    "content-type": "text/html",
+    "content-length": "299830",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Sun, 07 Sep 2025 05:24:30 GMT",
+    "etag": "\"49336-63e2f490d866d\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T174501Z-r17d7dbb565f8mhphC1LAXq2ts00000001e00000000071w9",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/lucky-for-life.html.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

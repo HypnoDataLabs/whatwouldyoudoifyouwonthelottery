@@ -1,0 +1,30 @@
+{
+  "url": "https://www.louisianalottery.com/winning-numbers",
+  "final_url": "https://louisianalottery.com/winning-numbers/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1030154,
+  "elapsed_sec": 0.756,
+  "fetched_at": "2025-09-14T02:06:12.625026Z",
+  "sha256": "ca9c21cc1249880fc822e58c35432b65567295f6e091a549048e10bfd306f331",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:06:12 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding,Cookie",
+    "link": "<https://louisianalottery.com/?p=24733>; rel=shortlink",
+    "x-powered-by": "WP Engine",
+    "x-cacheable": "SHORT",
+    "cache-control": "max-age=600, must-revalidate",
+    "x-cache": "HIT: 14",
+    "x-cache-group": "normal",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=jt3RKc5kXrT5Yn5WbFFVUheYYnrOpCRaCJ58p6j9VUA-1757815572-1.0.1.1-EwR1CbuxysLa5acDF_iG2O4aSJ_GAfD0ZUNqg38RscOQQK.TodyR4MkRE7DN3OS1KDv8O.C8LrZNrm152eIeMwB2pAAfq8EPCh5m4qRf6M0; path=/; expires=Sun, 14-Sep-25 02:36:12 GMT; domain=.louisianalottery.com; HttpOnly; Secure; SameSite=None",
+    "server": "cloudflare",
+    "cf-ray": "97ec52df487cd7ab-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

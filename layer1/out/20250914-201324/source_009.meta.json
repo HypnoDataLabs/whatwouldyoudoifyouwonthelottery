@@ -1,0 +1,43 @@
+{
+  "url": "https://www.coloradolottery.com/en/",
+  "final_url": "https://www.coloradolottery.com/en/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 84201,
+  "elapsed_sec": 0.653,
+  "fetched_at": "2025-09-14T20:13:41.607860Z",
+  "sha256": "6e2ec2dcb9453ef87d8df9d66bc4c07a25b99d66e52bcbe403993d873fd6dda4",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "cache-control": "max-age=30",
+    "content-language": "en",
+    "x-frame-options": "SAMEORIGIN",
+    "date": "Sun, 14 Sep 2025 20:13:41 GMT",
+    "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "referrer-policy": "same-origin",
+    "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=s%2B4Pgz%2F%2FpjZ%2FNva6yQETiG5mLoFF9oa5l22nvyeTzpg%3D\\u0026sid=af571f24-03ee-46d1-9f90-ab9030c2c74c\\u0026ts=1757880821\"}],\"max_age\":3600}",
+    "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=s%2B4Pgz%2F%2FpjZ%2FNva6yQETiG5mLoFF9oa5l22nvyeTzpg%3D&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&ts=1757880821\"",
+    "server": "Heroku",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "via": "1.1 heroku-router, 1.1 06fa0f3b57bb062326f863cfef461d62.cloudfront.net (CloudFront)",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "gzip",
+    "vary": "Host,Cookie,accept-encoding",
+    "x-cache": "Miss from cloudfront",
+    "x-amz-cf-pop": "LAX50-P1",
+    "x-amz-cf-id": "JQi_3fqsiEL8x-qN5cc_oqpzevxLz0Q9GovjlGLYRdP30iMDO7lNxg=="
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.coloradolottery.com/en/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

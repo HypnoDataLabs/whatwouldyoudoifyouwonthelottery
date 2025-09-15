@@ -1,0 +1,24 @@
+{
+  "url": "https://www.masslottery.com/winning-numbers",
+  "final_url": "https://www.masslottery.com/winning-numbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 3711,
+  "elapsed_sec": 0.445,
+  "fetched_at": "2025-09-14T02:07:22.148233Z",
+  "sha256": "176a3402c710e37a811f7dd93ce80573a92b651e8e309b543d70fadaa53a15aa",
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-length": "3711",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 02:07:22 GMT",
+    "etag": "W/\"e7f-cv1NCeH2i7YhphTVpIyEgIb3L+Y\"",
+    "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=JRF9JhR2aqbqiwfoauijksDl7TNEIqFzn8ogXbbw5FQ%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1757815642\"}],\"max_age\":3600}",
+    "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=JRF9JhR2aqbqiwfoauijksDl7TNEIqFzn8ogXbbw5FQ%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1757815642\"",
+    "server": "Heroku",
+    "via": "1.1 heroku-router",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

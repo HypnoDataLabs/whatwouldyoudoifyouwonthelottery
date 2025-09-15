@@ -1,0 +1,29 @@
+{
+  "url": "https://walottery.com/WinningNumbers/",
+  "final_url": "https://walottery.com/WinningNumbers/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 63381,
+  "elapsed_sec": 0.195,
+  "fetched_at": "2025-09-14T02:02:36.546489Z",
+  "sha256": "9ceb1d8f7eb4fb1aad4cfc8194993f4dd6805458ed3825c7d11f484860f807dd",
+  "headers": {
+    "content-length": "12867",
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 02:02:36 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*.translate.goog",
+    "access-control-expose-headers": "Request-Context",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-aspnet-version": "4.0.30319",
+    "request-context": "appId=cid-v1:78539010-cd97-4d57-afc5-01327f107249",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

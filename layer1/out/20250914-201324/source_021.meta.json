@@ -1,0 +1,40 @@
+{
+  "url": "https://www.louisianalottery.com/",
+  "final_url": "https://louisianalottery.com/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 167481,
+  "elapsed_sec": 0.582,
+  "fetched_at": "2025-09-14T20:14:14.736406Z",
+  "sha256": "02ad6e38fb4ffe9be6771920fa392a733d32175390d1fad4470415c20535984f",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:14 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding,Cookie",
+    "link": "<https://louisianalottery.com/>; rel=shortlink",
+    "x-powered-by": "WP Engine",
+    "x-cacheable": "SHORT",
+    "cache-control": "max-age=600, must-revalidate",
+    "x-cache": "HIT: 28",
+    "x-cache-group": "normal",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=SmFmcUtur0W6Dtuee5AodGYUdU25_EG1zKmBWmw.z4M-1757880854-1.0.1.1-Dbo3_f1fYqHHpso2BcR3YpROfE6jOf2CC2220WnIquBE3mRUoZuofpH7OsFw9VMtIEZITHPDtq7_MyZNyrukdmSQWrbOWe0WVewaEShCiWA; path=/; expires=Sun, 14-Sep-25 20:44:14 GMT; domain=.louisianalottery.com; HttpOnly; Secure; SameSite=None",
+    "server": "cloudflare",
+    "cf-ray": "97f28cad1ce324e5-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.louisianalottery.com/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Developers - What Would You Do If You Won The Lottery</title><link rel="stylesheet" href="/assets/styles.css" /></head>
+<body>
+<header><a href="/">Home</a> · <a href="/blog/">Blog</a> · <a href="/data/">Data</a></header>
+<main class="container">
+  <h1>Developers</h1>
+  <p>Public datasets are available without auth. Please cache for 24h for heavy usage.</p>
+  <h3>Endpoints</h3>
+  <ul>
+    <li><code>/datasets/latest-draws.json</code></li>
+    <li><code>/datasets/latest-draws.csv</code></li>
+  </ul>
+  <h3>Examples</h3>
+  <pre><code># curl
+curl -s https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.json | jq .records[0]
+
+# node
+const res = await fetch("https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.json");
+const data = await res.json();
+
+# python
+import pandas as pd
+df = pd.read_csv("https://whatwouldyoudoifyouwonthelottery.com/datasets/latest-draws.csv")
+print(df.head())</code></pre>
+</main>
+<footer><a href="/planets.html">Planets</a> · <a href="/license.html">License</a></footer>
+</body></html>

@@ -1,0 +1,16 @@
+/datasets/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=86400
+
+/blog/*
+  Cache-Control: public, max-age=600
+
+/data/*
+  Cache-Control: public, max-age=600
+
+/feeds/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+
+/sitemap.xml
+  Cache-Control: public, max-age=300

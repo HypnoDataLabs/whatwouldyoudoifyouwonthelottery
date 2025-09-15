@@ -1,0 +1,738 @@
+# Per-domain depth-1 expansion rules (same-site only).
+# deny[] wins over allow[]. Increase max_new if you want deeper fan-out.
+# Keep this paired with your large targets.txt for best coverage.
+
+# =========================
+# National / Multi-state
+# =========================
+www.powerball.com:
+  allow:
+    - ^/api/
+    - ^/numbers
+    - ^/results
+    - ^/game
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /search
+    - /user
+    - /account
+  max_new: 20
+
+powerball.com:
+  inherit: www.powerball.com
+
+www.megamillions.com:
+  allow:
+    - /cmspages/utilservice\.asmx/
+    - ^/winning-numbers
+    - ^/news
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /contact
+  max_new: 12
+
+megamillions.com:
+  inherit: www.megamillions.com
+
+www.luckyforlife.us:
+  allow:
+    - ^/winning-numbers
+    - ^/draws
+    - ^/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+
+www.lottoamerica.com:
+  allow:
+    - ^/winning-numbers
+    - ^/draws
+    - ^/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+
+www.cash4lifelottery.net:
+  allow:
+    - ^/winning-numbers
+    - ^/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+
+# =========================
+# Washington (WA) — proven
+# =========================
+walottery.com:
+  allow:
+    - ^/WinningNumbers/
+    - ^/JackpotGames/
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /media/
+    - /assets/
+  max_new: 20
+www.walottery.com:
+  inherit: walottery.com
+
+# =========================
+# Maryland (MD)
+# =========================
+www.mdlottery.com:
+  allow:
+    - ^/winning-numbers/
+    - ^/player-tools/winning-numbers/
+    - ^/games/.*/winning-numbers/
+    - ^/draw/
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /events/
+    - /promotions/
+  max_new: 15
+mdlottery.com:
+  inherit: www.mdlottery.com
+
+# =========================
+# Rhode Island (RI)
+# =========================
+www.rilot.com:
+  allow:
+    - ^/en-us/winning-numbers
+    - ^/content/interactive/ilottery/en/winning-numbers/
+    - ^/.*check-your-ticket
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /etc\.clientlibs/
+  max_new: 20
+rilot.com:
+  inherit: www.rilot.com
+
+# =========================
+# California (CA)
+# =========================
+www.calottery.com:
+  allow:
+    - ^/draw-games
+    - ^/draw-games/.*/(draw-details|past-draws|?date=)
+    - ^/winning-numbers
+    - ^/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /retailer
+    - /apps
+    - /claim
+  max_new: 20
+calottery.com:
+  inherit: www.calottery.com
+
+# =========================
+# Oregon (OR)
+# =========================
+www.oregonlottery.org:
+  allow:
+    - ^/draw-games/
+    - ^/winning-numbers/
+    - ^/games/.*(results|draws)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+oregonlottery.org:
+  inherit: www.oregonlottery.org
+
+# =========================
+# Arizona (AZ)
+# =========================
+www.arizonalottery.com:
+  allow:
+    - ^/en/winning-numbers
+    - ^/en/winning-numbers/.*
+    - ^/en/games/.*/(winning-numbers|past-results)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+arizonalottery.com:
+  inherit: www.arizonalottery.com
+
+# =========================
+# Colorado (CO)
+# =========================
+www.coloradolottery.com:
+  allow:
+    - ^/en/games/
+    - ^/en/games/.*/(winning-numbers|past-results)
+    - ^/en/results/
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+coloradolottery.com:
+  inherit: www.coloradolottery.com
+
+# =========================
+# Idaho (ID)
+# =========================
+www.idaholottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(winning-numbers|past-draws|results)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+idaholottery.com:
+  inherit: www.idaholottery.com
+
+# =========================
+# Montana (MT)
+# =========================
+www.montanalottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(draw|results|winning)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+montanalottery.com:
+  inherit: www.montanalottery.com
+
+# =========================
+# Wyoming (WY)
+# =========================
+wyolotto.com:
+  allow:
+    - ^/winning-numbers/
+    - ^/games/
+    - ^/games/.*/(results|winning-numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+www.wyolotto.com:
+  inherit: wyolotto.com
+
+# =========================
+# New Mexico (NM)
+# =========================
+www.nmlottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(winning|results|numbers)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+nmlottery.com:
+  inherit: www.nmlottery.com
+
+# =========================
+# Texas (TX)
+# =========================
+www.txlottery.org:
+  allow:
+    - ^/export/sites/lottery/Games/
+    - ^/export/sites/lottery/Games/.*/(Winning_Numbers|Past_Drawing_Results)
+    - ^/winningnumbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /claim
+    - /retailer
+  max_new: 24
+txlottery.org:
+  inherit: www.txlottery.org
+
+# =========================
+# Tennessee (TN)
+# =========================
+www.tnlottery.com:
+  allow:
+    - ^/draw-results
+    - ^/games/.*/(draw-results|past-results)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+tnlottery.com:
+  inherit: www.tnlottery.com
+
+# =========================
+# Kansas (KS)
+# =========================
+www.kslottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(results|winning)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+kslottery.com:
+  inherit: www.kslottery.com
+www.kansaslottery.com:
+  inherit: www.kslottery.com
+kansaslottery.com:
+  inherit: www.kslottery.com
+
+# =========================
+# Missouri (MO)
+# =========================
+www.molottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(winning|draw|results)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+molottery.com:
+  inherit: www.molottery.com
+
+# =========================
+# Arkansas (AR)
+# =========================
+www.myarkansaslottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(results|winning|draw)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+myarkansaslottery.com:
+  inherit: www.myarkansaslottery.com
+
+# =========================
+# Louisiana (LA)
+# =========================
+louisianalottery.com:
+  allow:
+    - ^/winning-numbers
+    - ^/games/.*/(winning|results|draw)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+www.louisianalottery.com:
+  inherit: louisianalottery.com
+
+# =========================
+# Oklahoma (OK)
+# =========================
+www.oklottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(results|winning)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+oklottery.com:
+  inherit: www.oklottery.com
+
+# =========================
+# South Dakota (SD)
+# =========================
+lottery.sd.gov:
+  allow:
+    - ^/winning
+    - ^/draw
+    - ^/games/.*/(results|winning)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+www.lottery.sd.gov:
+  inherit: lottery.sd.gov
+
+# =========================
+# North Dakota (ND)
+# =========================
+www.ndlottery.com:
+  allow:
+    - ^/winning-numbers
+    - ^/games/.*/(results|winning)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+ndlottery.com:
+  inherit: www.ndlottery.com
+
+# =========================
+# Nebraska (NE)
+# =========================
+nelottery.com:
+  allow:
+    - ^/homeapp/lotto
+    - ^/homeapp/lotto/.*(winners|winning|results)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+www.nebraskalottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(winning|results)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+nebraskalottery.com:
+  inherit: www.nebraskalottery.com
+
+# =========================
+# Iowa (IA)
+# =========================
+www.ialottery.com:
+  allow:
+    - ^/Games/
+    - ^/Games/.*/(WinningNumbers|PastDrawings|Results)
+    - ^/Results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+ialottery.com:
+  inherit: www.ialottery.com
+
+# =========================
+# Ohio (OH)
+# =========================
+www.ohiolottery.com:
+  allow:
+    - ^/Winning
+    - ^/Games/.*(Draw|Results|Winning)
+    - ^/Numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /Retailers
+  max_new: 18
+ohiolottery.com:
+  inherit: www.ohiolottery.com
+
+# =========================
+# Michigan (MI)
+# =========================
+www.michiganlottery.com:
+  allow:
+    - ^/numbers
+    - ^/games/.*/(past-results|numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /account
+    - /login
+  max_new: 12
+michiganlottery.com:
+  inherit: www.michiganlottery.com
+
+# =========================
+# Illinois (IL)
+# =========================
+www.illinoislottery.com:
+  allow:
+    - ^/winning
+    - ^/games/.*/(results|winning|past-results)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /signin
+    - /account
+  max_new: 12
+illinoislottery.com:
+  inherit: www.illinoislottery.com
+
+# =========================
+# Minnesota (MN)
+# =========================
+www.mnlottery.com:
+  allow:
+    - ^/winning-numbers
+    - ^/games/.*/(winning|results|draw)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+mnlottery.com:
+  inherit: www.mnlottery.com
+
+# =========================
+# Wisconsin (WI)
+# =========================
+www.wilottery.com:
+  allow:
+    - ^/WinningNumbers
+    - ^/Games/.*/(WinningNumbers|Results|PastDraws)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+wilottery.com:
+  inherit: www.wilottery.com
+
+# =========================
+# Indiana (IN)
+# =========================
+www.hoosierlottery.com:
+  allow:
+    - ^/draw-games
+    - ^/draw-games/.*/(past-drawings|results|winning)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+hoosierlottery.com:
+  inherit: www.hoosierlottery.com
+
+# =========================
+# Northeast / Mid-Atlantic
+# =========================
+nylottery.ny.gov:
+  allow:
+    - ^/winning-numbers
+    - ^/take-5/results
+    - ^/powerball/results
+    - ^/mega-millions/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /claim
+  max_new: 18
+www.nylottery.ny.gov:
+  inherit: nylottery.ny.gov
+
+www.njlottery.com:
+  allow:
+    - ^/api/
+    - ^/en-us/drawgames/
+    - ^/en-us/drawgames/.*/(results|winning)
+    - ^/en-us/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /players
+  max_new: 18
+njlottery.com:
+  inherit: www.njlottery.com
+
+www.palottery.state.pa.us:
+  allow:
+    - ^/Draw-Games
+    - ^/Draw-Games/.*/(Winning-Numbers|Results|Past-Results)
+    - ^/Winning-Numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 18
+palottery.state.pa.us:
+  inherit: www.palottery.state.pa.us
+
+www.masslottery.com:
+  allow:
+    - ^/draw-games
+    - ^/draw-games/.*/(results|past-results)
+    - ^/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 14
+masslottery.com:
+  inherit: www.masslottery.com
+
+www.ctlottery.org:
+  allow:
+    - ^/winning-numbers
+    - ^/Games/.*/(Winning|Results|Past)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+ctlottery.org:
+  inherit: www.ctlottery.org
+
+www.nhlottery.com:
+  allow:
+    - ^/winning-numbers
+    - ^/games/.*/(winning|results|past)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+nhlottery.com:
+  inherit: www.nhlottery.com
+
+vtlottery.com:
+  allow:
+    - ^/games/
+    - ^/games/.*/(results|winning|draw)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+www.vtlottery.com:
+  inherit: vtlottery.com
+
+www.maine.gov:
+  allow:
+    - ^/lottery/
+    - ^/lottery/.*/(results|numbers|winning)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+
+www.delottery.com:
+  allow:
+    - ^/Games/
+    - ^/Games/.*/(Winning|Results|Past)
+    - ^/Results/
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+delottery.com:
+  inherit: www.delottery.com
+
+www.valottery.com:
+  allow:
+    - ^/results
+    - ^/results/.*
+    - ^/games/.*/(results|winning|past)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 14
+valottery.com:
+  inherit: www.valottery.com
+
+dclottery.com:
+  allow:
+    - ^/winning-numbers
+    - ^/games/.*/(results|winning|past)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+www.dclottery.com:
+  inherit: dclottery.com
+
+# =========================
+# Southeast / Atlantic
+# =========================
+www.flalottery.com:
+  allow:
+    - ^/winningNumbers
+    - ^/games/.*/(winningNumbers|results)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 18
+flalottery.com:
+  inherit: www.flalottery.com
+
+www.galottery.com:
+  allow:
+    - ^/en-us/winning-numbers
+    - ^/en-us/draw-games/.*/(past-results|winning)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 16
+galottery.com:
+  inherit: www.galottery.com
+
+nclottery.com:
+  allow:
+    - ^/draw-games
+    - ^/draw-games/.*/(past-draws|results|winning)
+    - ^/winning-numbers
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 16
+www.nclottery.com:
+  inherit: nclottery.com
+
+www.sceducationlottery.com:
+  allow:
+    - ^/draw-games
+    - ^/draw-games/.*/(results|winning)
+    - ^/results
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+sceducationlottery.com:
+  inherit: www.sceducationlottery.com
+
+www.kylottery.com:
+  allow:
+    - ^/apps/draw_games
+    - ^/apps/draw_games/.*/(results|winning|past)
+    - ^/winning
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+kylottery.com:
+  inherit: www.kylottery.com
+
+www.mslotteryhome.com:
+  allow:
+    - ^/winning-numbers
+    - ^/games/.*/(results|winning|past)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+mslotteryhome.com:
+  inherit: www.mslotteryhome.com
+
+# =========================
+# Canada (optional heavy)
+# =========================
+www.olg.ca:
+  allow:
+    - ^/en/lottery
+    - ^/en/lottery/.*(results|numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /en/account
+  max_new: 10
+olg.ca:
+  inherit: www.olg.ca
+
+www.bclc.com:
+  allow:
+    - ^/lottery
+    - ^/lottery/.*/(results|numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /account
+  max_new: 10
+bclc.com:
+  inherit: www.bclc.com
+
+www.wclc.com:
+  allow:
+    - ^/(winning-numbers|games)
+    - ^/winning-numbers/.*
+    - ^/games/.*/(results|numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 10
+wclc.com:
+  inherit: www.wclc.com
+
+lotteries.lotoquebec.com:
+  allow:
+    - ^/en
+    - ^/en/lotto
+    - ^/en/lotto/.*/(results|numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+
+www.alc.ca:
+  allow:
+    - ^/content/alc/en/lotto
+    - ^/content/alc/en/lotto/.*/(results|numbers)
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 8
+alc.ca:
+  inherit: www.alc.ca
+
+# =========================
+# UK / Europe (optional)
+# =========================
+www.national-lottery.co.uk:
+  allow:
+    - ^/results
+    - ^/results/.*
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+    - /games/instant-win
+  max_new: 12
+national-lottery.co.uk:
+  inherit: www.national-lottery.co.uk
+
+www.euro-millions.com:
+  allow:
+    - ^/results
+    - ^/results/.*
+  deny:
+    - \.(pdf|css|js|svg|ico|png|jpg|webp)$
+  max_new: 12
+euro-millions.com:
+  inherit: www.euro-millions.com

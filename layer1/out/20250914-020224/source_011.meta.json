@@ -1,0 +1,27 @@
+{
+  "url": "https://www.idaholottery.com/games/draw/",
+  "final_url": "https://www.idaholottery.com/games/draw/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 121418,
+  "elapsed_sec": 1.179,
+  "fetched_at": "2025-09-14T02:02:47.022444Z",
+  "sha256": "a93030b5bf87f2975f351de0f9221bb02312e97df39b02696c3fe6ce586c494f",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:02:46 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "server": "Apache/2.4.57 (Debian)",
+    "x-powered-by": "PHP/8.1.21",
+    "set-cookie": "exp_csrf_token=ed63048f0faa18a34b5ee95959ded401861472be; expires=Sun, 14-Sep-2025 04:02:45 GMT; Max-Age=7199; path=/; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+    "last-modified": "Sun, 14 Sep 2025 02:02:46 GMT",
+    "pragma": "no-cache",
+    "permissions-policy": "interest-cohort=()",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

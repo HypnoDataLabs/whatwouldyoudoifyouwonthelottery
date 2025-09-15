@@ -1,0 +1,26 @@
+{
+  "url": "https://www.nmlottery.com/games/",
+  "final_url": "https://www.nmlottery.com/games/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 210956,
+  "elapsed_sec": 1.058,
+  "fetched_at": "2025-09-14T02:05:59.985628Z",
+  "sha256": "846805bcd50eb00c505f9ea07508fe011c53c38ddb6a1460d4a2dd01dff50d9e",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "36972",
+    "connection": "close",
+    "date": "Sun, 14 Sep 2025 02:05:59 GMT",
+    "server": "Apache",
+    "set-cookie": "dbbc_breadcrumbs=%5B%7B%22text%22%3A%22Games%22%2C%22url%22%3A%22https%3A%5C%2F%5C%2Fwww.nmlottery.com%5C%2Fgames%5C%2F%22%7D%5D; path=/",
+    "link": "<https://www.nmlottery.com/?p=56>; rel=shortlink",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 da0ff46c89069bb94e41a111871964ae.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "LAX53-P5",
+    "x-amz-cf-id": "Q1_yZqbXrVDmrf9W-UAelZrlaGkgwZRw2J50FX4QpntM6PSv2MbyEQ=="
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

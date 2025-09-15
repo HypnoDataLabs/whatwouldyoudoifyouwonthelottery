@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en-us"><head><script>const gtmId = "GTM-M442ZZ9";
+(function(w, d, s, l, i) {
+    w[l] = w[l] || []
+    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+    var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s),
+    dl = l != 'dataLayer' ? '&l=' + l : ''
+    j.async = true
+    j.src = "https://www.googletagmanager.com/gtm.js?id="+i+dl
+    j.nonce = ""
+    f.parentNode.insertBefore(j, f)
+})(window, document, 'script', 'dataLayer', gtmId)
+
+const originalPush = window.dataLayer.push;
+window.dataLayer.push = function() {
+    for (const arg of arguments) {
+        if (typeof arg === 'object' && arg.event && !arg.userId) {
+            arg.userId = window.userId;
+        }
+    }
+    return originalPush.apply(window.dataLayer, arguments);
+};</script><title>Massachusetts Lottery</title><meta charset="UTF-8"><meta name="description" content="Massachusetts State Lottery Site"><meta name="keywords" content="[&quot;Lottery&quot;,&quot;Mass&quot;,&quot;Massachusetts&quot;]"><meta name="facebook-domain-verification" content="zhmo7ov6noreq4qcp15arqf7cxvl6d"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><script>// exposes a global variable window.deviceTypeDetails that describes the request device type 
+(function (window) {
+  const deviceType = {"experience":"WEB","formFactor":"DESKTOP","platform":"OTHER"};
+  window.deviceTypeDetails = deviceType;
+  window.deviceType = deviceType.experience + "_" + deviceType.formFactor + "_" + deviceType.platform;
+})(window);</script><script>(function (window) {
+  window.appConfiguration = {
+    useRouter: true,
+    games: {
+      KENO: {
+        id: "KENO",
+        displayName: "Keno",
+        pathName: "/keno",
+        endpoint: 'https://www.masslottery.com/api/v1/keno',
+        thanksForPlayingImage: "https://mslc-public-assets.s3.amazonaws.com/thanks-for-playing-keno.png",
+        primaryColor: '#251325',
+        matchColor: '#ffff52',
+        addonGames: [
+          {
+            title: "Bonus",
+            identifier: "BONUS",
+            maxNumbersAllowed: 9,
+            wagerExclusions: [50]
+          },
+          //- {
+          //-   title: "Extra",
+          //-   identifier: "EXTRA"
+          //- },
+          //- {
+          //-   title: "The Jack",
+          //-   identifier: "JACK"
+          //- }
+        ],
+        validWagers: [1, 2, 5, 10, 20, 50],
+        maxNumberOfDraws: 100,
+        maxSelectableNumbers: 12,
+        minSelectableNumbers: 1,
+        backgroundImageUrl: "https://mslc-public-assets.s3.amazonaws.com/keno-to-go-card-mobile.svg"
+      }
+    }
+  };
+})(window);</script><link href="https://mslc-public-assets.s3.amazonaws.com/favicon.ico" rel="shortcut icon"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;display=swap" rel="stylesheet"><link href="https://use.typekit.net/xzu6sdp.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&amp;display=swap" rel="stylesheet"><link href="https://mslc-prod-herokuapp-com.global.ssl.fastly.net/main.6735489824992549.css" rel="stylesheet"></head><body><noscript>
+<iframe nonce=nonce src="https://www.googletagmanager.com/ns.html?id=GTM-M442ZZ9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript><div id="mslc-web"></div><script src="https://mslc-prod-herokuapp-com.global.ssl.fastly.net/main.6735489824992549.js"></script></body></html>

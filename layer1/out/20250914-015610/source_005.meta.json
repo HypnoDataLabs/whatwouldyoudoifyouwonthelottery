@@ -1,0 +1,20 @@
+{
+  "url": "https://www.cash4lifelottery.net/",
+  "final_url": "https://www.cash4lifelottery.net/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10039,
+  "elapsed_sec": 0.56,
+  "fetched_at": "2025-09-14T01:56:13.974900Z",
+  "sha256": "93090fce473931e3b52396740c8770a1940a501bf9d299ba4591744a5fdf8b22",
+  "headers": {
+    "server": "openresty",
+    "date": "Sun, 14 Sep 2025 01:56:04 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "x-sc-h": "21-fjp9",
+    "via": "1.1 google"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

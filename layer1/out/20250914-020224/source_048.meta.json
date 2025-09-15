@@ -1,0 +1,29 @@
+{
+  "url": "https://www.sceducationlottery.com/games/winningnumbers",
+  "final_url": "https://www.sceducationlottery.com/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 92075,
+  "elapsed_sec": 10.892,
+  "fetched_at": "2025-09-14T02:08:49.258884Z",
+  "sha256": "97ec97c88720c6165a0394bccf6276c0e21e6f747fc1e3f67a9e51d5699e2e5e",
+  "headers": {
+    "cache-control": "private, max-age=300",
+    "content-type": "text/html; charset=utf-8",
+    "expires": "Sun, 14 Sep 2025 02:13:49 GMT",
+    "last-modified": "Sun, 14 Sep 2025 02:08:49 GMT",
+    "vary": "*",
+    "server": "Microsoft-IIS/10.0",
+    "x-aspnetmvc-version": "5.2",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "__RequestVerificationToken=DMpaFvK6TyefQYhkqQ870N7fLRnMxOuQaXhuVJJWnr09BF5ELcgkG33NjkJC_VrIoZDmOLoVyKD4ZRrhBnZ9RxE5i4GFufUEAREZmfFRBfc1; path=/; secure; HttpOnly",
+    "x-content-type_options": "nosniff",
+    "x-xss-protection": "1;mode=block",
+    "x-powered-by": "ASP.NET",
+    "strict-transport-security": "max-age=31536000",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "date": "Sun, 14 Sep 2025 02:08:49 GMT",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://walottery.com/WinningNumbers/",
+  "final_url": "https://walottery.com/WinningNumbers/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 63382,
+  "elapsed_sec": 0.178,
+  "fetched_at": "2025-09-14T16:25:23.766553Z",
+  "sha256": "d9a8db22b2abcbbad1829d0a57eb25176681fbc68335ec1d204c8761dd2b799a",
+  "headers": {
+    "content-length": "12894",
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 16:25:22 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*.translate.goog",
+    "access-control-expose-headers": "Request-Context",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-aspnet-version": "4.0.30319",
+    "request-context": "appId=cid-v1:78539010-cd97-4d57-afc5-01327f107249",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://walottery.com/WinningNumbers/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

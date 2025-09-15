@@ -1,0 +1,24 @@
+{
+  "url": "https://www.luckyforlife.us/",
+  "final_url": "https://www.luckyforlife.us/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 31758,
+  "elapsed_sec": 0.486,
+  "fetched_at": "2025-09-14T01:58:06.333564Z",
+  "sha256": "53233905f6d5a9c255793e3db25d7f31a8872fb589756a0918e792cac1c22713",
+  "headers": {
+    "content-length": "19959",
+    "connection": "close",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 01:58:06 GMT",
+    "server": "Microsoft-IIS/10.0",
+    "cache-control": "private",
+    "content-encoding": "gzip",
+    "set-cookie": "ARRAffinitySameSite=48768a3b039304e9b1fa7ae91a032ba86cf010beddc152b2be007691832f4002;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.luckyforlife.us",
+    "vary": "Accept-Encoding",
+    "x-aspnet-version": "4.0.30319",
+    "x-powered-by": "ASP.NET"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

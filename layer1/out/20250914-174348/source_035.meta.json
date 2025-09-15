@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/bingo.html.html",
+  "final_url": "https://www.rilot.com/en-us/winning-numbers/bingo.html.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 299775,
+  "elapsed_sec": 1.07,
+  "fetched_at": "2025-09-14T17:44:53.689745Z",
+  "sha256": "01fcc97610454cc3b806f21ca91d525ef979e6110e5f22b0ed8bd717cf88e45a",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:44:53 GMT",
+    "content-type": "text/html",
+    "content-length": "299775",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Sun, 07 Sep 2025 12:11:35 GMT",
+    "etag": "\"492ff-63e34f8e4ee8c\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T174453Z-r17d7dbb565snnwdhC1LAX7ab400000006n000000000d8k5",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/bingo.html.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

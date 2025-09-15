@@ -1,0 +1,32 @@
+{
+  "url": "https://www.nhlottery.com/Winning-Numbers",
+  "final_url": "https://www.nhlottery.com/winning/winning-numbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 445552,
+  "elapsed_sec": 1.255,
+  "fetched_at": "2025-09-14T20:14:38.229242Z",
+  "sha256": "f5e02e31bdb44e0cf4163943e85335adf1bfad13c5120ee3b4e80d95c6a37479",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:37 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "access-control-allow-origin": "*",
+    "cf-cache-status": "DYNAMIC",
+    "content-encoding": "gzip",
+    "server": "cloudflare",
+    "cf-ray": "97f28d3c5e4b3777-LAX"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.nhlottery.com/Winning-Numbers",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

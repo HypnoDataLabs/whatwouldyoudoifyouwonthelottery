@@ -1,0 +1,5 @@
+https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData
+https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json
+https://walottery.com/WinningNumbers/
+https://www.mdlottery.com/winning-numbers/
+https://www.rilot.com/en-us/winning-numbers.html

@@ -1,0 +1,27 @@
+{
+  "url": "https://www.njlottery.com/en-us/drawgames/results.html",
+  "final_url": "https://www.njlottery.com/en-us/error/404.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 89798,
+  "elapsed_sec": 0.723,
+  "fetched_at": "2025-09-14T02:07:17.638592Z",
+  "sha256": "898e7d670d00f821716736528b5571661ffd0f23e72a977bd3f11090da90ee3a",
+  "headers": {
+    "connection": "close",
+    "content-length": "15192",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "last-modified": "Sat, 13 Sep 2025 04:00:53 GMT",
+    "server": "Apache",
+    "content-type": "text/html",
+    "date": "Sun, 14 Sep 2025 02:07:17 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-bur-kbur8200106-BUR, cache-bur-kbur8200164-BUR",
+    "x-cache": "MISS, MISS",
+    "x-cache-hits": "0, 0",
+    "x-timer": "S1757815637.444885,VS0,VE187",
+    "vary": "Accept-Encoding"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

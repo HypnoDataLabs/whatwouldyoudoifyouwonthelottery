@@ -1,0 +1,23 @@
+{
+  "url": "https://www.maine.gov/lottery/winning",
+  "final_url": "https://www.mainelottery.com/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 26726,
+  "elapsed_sec": 0.678,
+  "fetched_at": "2025-09-14T02:07:33.760121Z",
+  "sha256": "661d5a5fd75b2b6512a8c26e663cb2e4c0b3be11258c13023677305988b48316",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:07:33 GMT",
+    "server": "Apache",
+    "accept-ranges": "bytes",
+    "zbe": "vw2",
+    "connection": "close",
+    "transfer-encoding": "chunked",
+    "content-type": "text/html",
+    "zfe": "vw2",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "upgrade-insecure-requests"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

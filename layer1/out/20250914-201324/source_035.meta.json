@@ -1,0 +1,30 @@
+{
+  "url": "https://www.nclottery.com/Results",
+  "final_url": "https://nclottery.com/Pages/error_404.aspx",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10476,
+  "elapsed_sec": 0.932,
+  "fetched_at": "2025-09-14T20:14:46.022116Z",
+  "sha256": "2e43f5d2f86daf345ea6de57c70ce2ca5562d36af6e200ac4d57f5ade73eaeb9",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:45 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "10476",
+    "connection": "close",
+    "set-cookie": "AWSALBCORS=zeca7tXHdGs2RYcIy3ULgY1txbZdMaNVAca3a/qjhJrB25S6uJgdFYxPiM6r0BEuOkFcSeLLJBAQ7szbphMfYKjt8UGYXcf1QYuY40UAZ9ujSZkH5RotOURiFkuT; Expires=Sun, 21 Sep 2025 20:14:45 GMT; Path=/; SameSite=None; Secure",
+    "cache-control": "private",
+    "server": "Microsoft-IIS/10.0"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.nclottery.com/Results",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

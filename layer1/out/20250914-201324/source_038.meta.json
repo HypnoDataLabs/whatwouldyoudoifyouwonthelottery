@@ -1,0 +1,37 @@
+{
+  "url": "https://www.lottery.ok.gov/win.aspx",
+  "final_url": "https://www.lottery.ok.gov/not-found?aspxerrorpath=/win.aspx",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 16161,
+  "elapsed_sec": 0.77,
+  "fetched_at": "2025-09-14T20:14:55.640287Z",
+  "sha256": "6b7fc5cc33ff65013abf32c61436dd8416002824fc074fefb0a87e8a2aadc777",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:55 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "cache-control": "private",
+    "x-aspnetmvc-version": "5.3",
+    "x-aspnet-version": "4.0.30319",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "set-cookie": "__cf_bm=ax0Tf5KUniOCxRRWoSvxgBE9lhhzYIm7u7DFjXD491E-1757880895-1.0.1.1-9VFe5HVa5wrKSvXBi04APINadYi9ohCxbI.fNGxjbj8wS6C1vfO5jRfPpFYzAW0Upk6_i0BM2O7n0I7M8GFKf0aP.ffdpA6Bjm9TxgYBGs8; path=/; expires=Sun, 14-Sep-25 20:44:55 GMT; domain=.lottery.ok.gov; HttpOnly; Secure; SameSite=None",
+    "vary": "Accept-Encoding",
+    "cf-cache-status": "DYNAMIC",
+    "server": "cloudflare",
+    "cf-ray": "97f28dab7a919a4f-LAX"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.lottery.ok.gov/win.aspx",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

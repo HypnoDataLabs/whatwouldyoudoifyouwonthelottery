@@ -1,0 +1,33 @@
+{
+  "url": "https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json",
+  "final_url": "https://www.powerball.com/previous-results?gc=powerball",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10024,
+  "elapsed_sec": 0.366,
+  "fetched_at": "2025-09-14T01:58:05.206918Z",
+  "sha256": "840288fdc6c89de1b8d07cbbe46670e400978450a418a6fb63f27c96b651a7e6",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 01:58:05 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "10024",
+    "connection": "close",
+    "age": "22",
+    "content-encoding": "br",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-ms-middleware-request-id": "00000000-0000-0000-0000-000000000000",
+    "request-context": "appId=cid-v1:b618f7b5-f03a-4b45-a6fa-23e05262ea9c",
+    "referrer-policy": "no-referrer",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-permitted-cross-domain-policies": "none",
+    "x-xss-protection": "1; mode=block",
+    "permissions-policy": "accelerometer=(self \"https://www.youtube.com\"), autoplay=(self \"https://www.youtube.com\"), browsing-topics=(), camera=(), display-capture=(), encrypted-media=(*), fullscreen=(self \"https://www.youtube.com\"), geolocation=(), gyroscope=(*), hid=(), identity-credentials-get=(), idle-detection=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self \"https://www.youtube.com\"), publickey-credentials-get=(), screen-wake-lock=(), serial=(), storage-access=(), usb=(), web-share=(self \"https://www.youtube.com\"), window-management=(), xr-spatial-tracking=()",
+    "content-security-policy": "block-all-mixed-content;frame-ancestors 'none';upgrade-insecure-requests;",
+    "x-azure-ref": "20250914T015805Z-r17d7dbb565vct7jhC1LAXc2p000000004bg00000000fut3",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

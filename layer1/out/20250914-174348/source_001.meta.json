@@ -1,0 +1,38 @@
+{
+  "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+  "final_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+  "status": 200,
+  "content_type": "text/xml",
+  "bytes": 7236,
+  "elapsed_sec": 0.324,
+  "fetched_at": "2025-09-14T17:43:48.450885Z",
+  "sha256": "36c3f491c0bf573e9995ccf8566b913ec668e952512781a07e676204eb0cccfe",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:43:48 GMT",
+    "content-type": "text/xml; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "cf-ray": "97f1b04e8f436e22-LAX",
+    "cf-cache-status": "DYNAMIC",
+    "cache-control": "private, max-age=0",
+    "set-cookie": "__cfwaitingroom=ChhaOE1Jb1NoZlN3aEcvQXJnOTZKdTBBPT0SkAJvMmdOc3dPajhSWm1ackxaQktrSG9FWkRhZU9UcWkrTkt5d1pZY20yVnowZlhSakxSOHlYMTdqMDN0U1FLdWhJbTM0VStPNWJERWF2TFNjTmJoOEVpRk9uVkxKNTRyaEpVYm55S2NXR1dvN25tbmFnaE5SRjNwN2VpSXJjUnR3cmtvVTdHaDVZOHF3a1N1OWZrZ1lScFY0bXA5ZE9iTmR0RFNMZkorclFDMVdZVVFOaXIxWmQ0T0NEUERKcDZmN0NiU1AraU9KK2d1UGtqRXlBM1liUFRpWEVkeGFEdFFwRmVUUzhadGxQODFZczBNMWtHWHVlNlM0aHE2cXUxSzJhcDFXeXMrSU9udFRQVTRWdg%3D%3D; Path=/; Expires=Sun, 14 Sep 2025 17:44:48 GMT; HttpOnly; Secure; SameSite=None; Partitioned",
+    "x-aspnet-version": "4.0.30319",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "ASP.NET",
+    "vary": "Accept-Encoding",
+    "server": "cloudflare"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "X-Requested-With": "XMLHttpRequest"
+  }
+}

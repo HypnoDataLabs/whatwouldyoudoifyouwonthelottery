@@ -1,0 +1,33 @@
+{
+  "url": "https://www.kylottery.com/",
+  "final_url": "https://www.kylottery.com/apps/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 315830,
+  "elapsed_sec": 1.087,
+  "fetched_at": "2025-09-14T20:14:13.295663Z",
+  "sha256": "4eb97b874dd9e2d13610174863f2f25e2f85b49db58964a009110adca11bb31e",
+  "headers": {
+    "set-cookie": "cookiesession1=678A3E0D84559B185588D9F4C953F059;Expires=Mon, 14 Sep 2026 20:14:12 GMT;Path=/;HttpOnly",
+    "vary": "Origin",
+    "server": "OpenCms/17.0",
+    "last-modified": "Sun, 14 Sep 2025 20:14:12 GMT",
+    "cache-control": "public, max-age=0",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "315830",
+    "date": "Sun, 14 Sep 2025 20:14:12 GMT",
+    "connection": "close",
+    "strict-transport-security": "max-age=15552000; includeSubDomains"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.kylottery.com/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

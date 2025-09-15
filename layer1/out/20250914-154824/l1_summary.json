@@ -1,0 +1,254 @@
+{
+  "summary": {
+    "run_id": "20250914-154824",
+    "count": 5,
+    "ok": 5,
+    "skipped": 0,
+    "ts": "2025-09-14T15:50:48.427880Z",
+    "out_dir": "layer1/out/20250914-154824",
+    "hosts": {
+      "www.powerball.com": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 9985
+      },
+      "www.megamillions.com": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 7236
+      },
+      "www.luckyforlife.us": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 31758
+      },
+      "www.lottoamerica.com": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 15005
+      },
+      "www.cash4lifelottery.net": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 1120
+      }
+    },
+    "defaults": {
+      "per_host_delay": 0.2,
+      "jitter_min": 0.1,
+      "jitter_max": 0.3,
+      "timeout_sec": 12,
+      "max_retries": 2,
+      "backoff_base": 0.3,
+      "backoff_cap": 1.2,
+      "respect_robots": false
+    }
+  },
+  "fetched": [
+    {
+      "index": 1,
+      "url": "https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json",
+      "ok": true,
+      "path": "layer1/out/20250914-154824/source_001.html",
+      "bytes": 9985,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T15:48:25.069817Z",
+      "elapsed_sec": 0.221,
+      "error": null,
+      "host": "www.powerball.com",
+      "final_url": "https://www.powerball.com/previous-results?gc=powerball",
+      "sha256": "ec0e255dac5f12d643343f50bb19e4865d6385b84825b9c1305c08d4100aefd6",
+      "headers": {
+        "date": "Sun, 14 Sep 2025 15:48:25 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9985",
+        "connection": "close",
+        "age": "18",
+        "content-encoding": "br",
+        "vary": "Accept-Encoding",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-ms-middleware-request-id": "00000000-0000-0000-0000-000000000000",
+        "request-context": "appId=cid-v1:b618f7b5-f03a-4b45-a6fa-23e05262ea9c",
+        "referrer-policy": "no-referrer",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "1; mode=block",
+        "permissions-policy": "accelerometer=(self \"https://www.youtube.com\"), autoplay=(self \"https://www.youtube.com\"), browsing-topics=(), camera=(), display-capture=(), encrypted-media=(*), fullscreen=(self \"https://www.youtube.com\"), geolocation=(), gyroscope=(*), hid=(), identity-credentials-get=(), idle-detection=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self \"https://www.youtube.com\"), publickey-credentials-get=(), screen-wake-lock=(), serial=(), storage-access=(), usb=(), web-share=(self \"https://www.youtube.com\"), window-management=(), xr-spatial-tracking=()",
+        "content-security-policy": "block-all-mixed-content;frame-ancestors 'none';upgrade-insecure-requests;",
+        "x-azure-ref": "20250914T154825Z-r17d7dbb565wgtlzhC1LAXhy4n00000006wg000000002vgq",
+        "x-cache": "CONFIG_NOCACHE",
+        "accept-ranges": "bytes"
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Referer": "https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json",
+        "Connection": "close",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
+      }
+    },
+    {
+      "index": 2,
+      "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "ok": true,
+      "path": "layer1/out/20250914-154824/source_002.xml",
+      "bytes": 7236,
+      "content_type": "text/xml",
+      "status": 200,
+      "fetched_at": "2025-09-14T15:48:25.622424Z",
+      "elapsed_sec": 0.28,
+      "error": null,
+      "host": "www.megamillions.com",
+      "final_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "sha256": "36c3f491c0bf573e9995ccf8566b913ec668e952512781a07e676204eb0cccfe",
+      "headers": {
+        "date": "Sun, 14 Sep 2025 15:48:25 GMT",
+        "content-type": "text/xml; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "content-encoding": "gzip",
+        "cf-ray": "97f1074a9b7edcee-LAX",
+        "cf-cache-status": "DYNAMIC",
+        "cache-control": "private, max-age=0",
+        "set-cookie": "__cfwaitingroom=ChhQNVpiazc4ajgvZHhQOGxYMkNjT1F3PT0SkAJYTGh0T3dOdnc3MzlHNWVodjJjaFRBMjFCdzh3RkZ0NmtGRk9mTlIzN1pJd2RuM3l5NUg1ZlVQbk9FOFlkTHl3WWc1Qyt5amtjYy9wMlVSZ0ErbC84UUNxSkozN09ENWxvUHNlQlN1NzdkTTUrOFlrVFB0WC9uVGIyQkFjT0NHQUVDUTVHeVFXVWx2TVpVcjhIV2RmRzN4Y0FkRUd4UEdWdG1yNmlPakZRS1ByNXdObXpxMkplMzF2c1dPSVVvTUE4di9FbFRuSUJlRUpkWStQTndDdUFSYUJ6L1RMQXBNaGVIbVdEVnVwamlNdnNGZW15L0k5RXVZNDJkZU9PMlZJR2N3ZW1jcEM3TmtkV2ZUTQ%3D%3D; Path=/; Expires=Sun, 14 Sep 2025 15:49:25 GMT; HttpOnly; Secure; SameSite=None; Partitioned",
+        "x-aspnet-version": "4.0.30319",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "ASP.NET",
+        "vary": "Accept-Encoding",
+        "server": "cloudflare"
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Referer": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+        "Connection": "close",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "X-Requested-With": "XMLHttpRequest"
+      }
+    },
+    {
+      "index": 3,
+      "url": "https://www.luckyforlife.us/",
+      "ok": true,
+      "path": "layer1/out/20250914-154824/source_003.html",
+      "bytes": 31758,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T15:48:26.385473Z",
+      "elapsed_sec": 0.473,
+      "error": null,
+      "host": "www.luckyforlife.us",
+      "final_url": "https://www.luckyforlife.us/",
+      "sha256": "7f104a5012915acf2ec5feef83e0837bc46961bf4e4044cbceae09d95cf0d18f",
+      "headers": {
+        "content-length": "19945",
+        "connection": "close",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 14 Sep 2025 15:48:25 GMT",
+        "server": "Microsoft-IIS/10.0",
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "set-cookie": "ARRAffinitySameSite=5bcbf1f3b967520591295b4e97476fd2306de5efd0af1f78940eccc45eb30d6b;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.luckyforlife.us",
+        "vary": "Accept-Encoding",
+        "x-aspnet-version": "4.0.30319",
+        "x-powered-by": "ASP.NET"
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Referer": "https://www.luckyforlife.us/",
+        "Connection": "close",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
+      }
+    },
+    {
+      "index": 4,
+      "url": "https://www.lottoamerica.com/",
+      "ok": true,
+      "path": "layer1/out/20250914-154824/source_004.html",
+      "bytes": 15005,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T15:48:27.306976Z",
+      "elapsed_sec": 0.645,
+      "error": null,
+      "host": "www.lottoamerica.com",
+      "final_url": "https://www.lottoamerica.com/",
+      "sha256": "3374b3d12064c9e8500bc56e615c7e4d4adcb9dba458dcf026b2d5687004baaa",
+      "headers": {
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "content-type": "text/html; charset=utf-8",
+        "content-encoding": "gzip",
+        "expires": "-1",
+        "last-modified": "Sun, 14 Sep 2025 03:53:21 BST",
+        "vary": "User-Agent,Accept-Encoding",
+        "server": "Microsoft-IIS/10.0",
+        "x-aspnet-version": "4.0.30319",
+        "set-cookie": "AdvInt=38677267-ec15-41d5-a92d-68cfcdb1682a|4HCqXSTFb8zuwg863S70aA==:KEENNgfeFHv6M+xHZC/u+OnUg5sjiStWQfY2aTO5AqnAReo5NZO+nj7uPPM+mIuHQ6ISTX7+Z45dHIUU9AA6dRU+WJOSNluzqOCF0NAArkPditofOvG3vB56A2botvoU+L1hSFHp5lFLf+8NbWeLXw==; expires=Fri, 13-Mar-2026 16:48:27 GMT; path=/",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-powered-by": "ASP.NET",
+        "x-frame-options": "deny",
+        "x-xss-protection": "1; mode=block",
+        "date": "Sun, 14 Sep 2025 15:48:27 GMT",
+        "connection": "close",
+        "content-length": "5169"
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Referer": "https://www.lottoamerica.com/",
+        "Connection": "close",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
+      }
+    },
+    {
+      "index": 5,
+      "url": "https://www.cash4lifelottery.net/",
+      "ok": true,
+      "path": "layer1/out/20250914-154824/source_005.html",
+      "bytes": 1120,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T15:50:48.197741Z",
+      "elapsed_sec": 140.762,
+      "error": null,
+      "host": "www.cash4lifelottery.net",
+      "final_url": "https://www.cash4lifelottery.net/",
+      "sha256": "7eeadd45f448bf88fd6d437d4f665945efa8552ce15d2a0996aced51c20d8894",
+      "headers": {
+        "server": "openresty",
+        "date": "Sun, 14 Sep 2025 15:50:38 GMT",
+        "content-type": "text/html",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "x-sc-h": "21-l79d",
+        "via": "1.1 google"
+      },
+      "request_headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Referer": "https://www.cash4lifelottery.net/",
+        "Connection": "close",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
+      }
+    }
+  ]
+}

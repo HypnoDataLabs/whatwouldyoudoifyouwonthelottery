@@ -1,0 +1,168 @@
+{
+  "version": "2025.09.14",
+  "last_updated": "2025-09-14T20:15:29Z",
+  "records": [
+    {
+      "date": "Sep",
+      "game": "Powerball",
+      "numbers": [
+        28,
+        37,
+        42,
+        50,
+        53,
+        2
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://www.coloradolottery.com/en/",
+      "fetched_at": "2025-09-14T20:13:41.607860Z"
+    },
+    {
+      "date": "Sep",
+      "game": "Powerball",
+      "numbers": [
+        28,
+        37,
+        42,
+        50,
+        53,
+        19
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://www.sceducationlottery.com/",
+      "fetched_at": "2025-09-14T20:15:06.731151Z"
+    },
+    {
+      "date": "2025-09-15",
+      "game": "Powerball",
+      "numbers": [
+        28,
+        37,
+        42,
+        50,
+        53,
+        19
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://www.texaslottery.com/export/sites/lottery/Games/",
+      "fetched_at": "2025-09-14T20:15:15.014996Z"
+    },
+    {
+      "date": "2025-09-14",
+      "game": "Powerball",
+      "numbers": [
+        7,
+        8,
+        1,
+        8,
+        5,
+        2
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://www.delottery.com/Winning-Numbers",
+      "fetched_at": "2025-09-14T20:13:46.273648Z"
+    },
+    {
+      "date": "2025-09-14",
+      "game": "Powerball",
+      "numbers": [
+        28,
+        37,
+        42,
+        50,
+        53,
+        19
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://dclottery.com/winning-numbers",
+      "fetched_at": "2025-09-14T20:13:48.701413Z"
+    },
+    {
+      "date": "2025-09-13",
+      "game": "Powerball",
+      "numbers": [
+        28,
+        37,
+        42,
+        50,
+        53,
+        19
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://www.mnlottery.com/",
+      "fetched_at": "2025-09-14T20:14:24.811685Z"
+    },
+    {
+      "date": "2025-09-12",
+      "game": "Mega Millions",
+      "numbers": [],
+      "jackpot_usd": 202509120000003810000000400000000017500000001858000000020250913001402,
+      "winners": null,
+      "source_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "fetched_at": "2025-09-14T20:13:24.552453Z"
+    },
+    {
+      "date": "2025-09-10",
+      "game": "Powerball",
+      "numbers": [
+        28,
+        37,
+        42,
+        50,
+        53,
+        19
+      ],
+      "jackpot_usd": null,
+      "winners": null,
+      "source_url": "https://www.idaholottery.com/games/winning-numbers",
+      "fetched_at": "2025-09-14T20:14:00.064752Z"
+    }
+  ],
+  "parse_stats": {
+    "": 0,
+    "www.megamillions.com": 1,
+    "www.powerball.com": 0,
+    "data.ny.gov": 0,
+    "www.luckyforlife.us": 0,
+    "www.arizonalottery.com": 0,
+    "www.myarkansaslottery.com": 0,
+    "www.calottery.com": 0,
+    "www.coloradolottery.com": 1,
+    "www.ctlottery.org": 0,
+    "www.delottery.com": 1,
+    "dclottery.com": 1,
+    "floridalottery.com": 0,
+    "www.galottery.com": 0,
+    "www.idaholottery.com": 1,
+    "ialottery.com": 0,
+    "www.kslottery.com": 0,
+    "www.kylottery.com": 0,
+    "louisianalottery.com": 0,
+    "www.mainelottery.com": 0,
+    "www.mdlottery.com": 0,
+    "www.masslottery.com": 0,
+    "www.michiganlottery.com": 0,
+    "www.mnlottery.com": 1,
+    "www.nhlottery.com": 0,
+    "www.njlottery.com": 0,
+    "www.nmlottery.com": 0,
+    "nylottery.ny.gov": 0,
+    "nclottery.com": 0,
+    "www.lottery.nd.gov": 0,
+    "www.ohiolottery.com": 0,
+    "www.lottery.ok.gov": 0,
+    "www.oregonlottery.org": 0,
+    "www.rilot.com": 0,
+    "www.sceducationlottery.com": 1,
+    "tnlottery.com": 0,
+    "www.texaslottery.com": 1,
+    "www.valottery.com": 0,
+    "walottery.com": 0
+  }
+}

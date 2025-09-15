@@ -1,0 +1,30 @@
+{
+  "url": "https://www.euro-millions.com/results",
+  "final_url": "https://www.euro-millions.com/results",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 51543,
+  "elapsed_sec": 0.487,
+  "fetched_at": "2025-09-14T02:09:35.788407Z",
+  "sha256": "83f38c76882a8e49bb574757d16af56b604cdb158e4db83d50da0c3e11d26f7a",
+  "headers": {
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "content-type": "text/html; charset=utf-8",
+    "content-encoding": "gzip",
+    "expires": "-1",
+    "last-modified": "Fri, 12 Sep 2025 22:37:09 BST",
+    "vary": "User-Agent,Accept-Encoding",
+    "server": "Microsoft-IIS/10.0",
+    "x-aspnet-version": "4.0.30319",
+    "set-cookie": "AdvInt=50072368-c01b-40c0-bb15-a0c979361a4c|pT8mOac3jcnIeoI05VAiAA==:67Wnl/llSgjz+cu6Up5NKT/nzuD6zUx8bteZnOTs/JJ8jZRFwX9ZUvF8DQzs4/pJmcGCCGhm3RkPYv5MKwAfUW+fh7O2mXKWUe8K0eJMWYwMZ5G3ElSuphBJqICx6NffLSix3TMD0Ho/ppIvih3kfWISRtYX2zkVRYOBhlxuzaA=; expires=Fri, 13-Mar-2026 03:09:35 GMT; path=/",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "deny",
+    "x-xss-protection": "1; mode=block",
+    "date": "Sun, 14 Sep 2025 02:09:35 GMT",
+    "connection": "close",
+    "content-length": "15680"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

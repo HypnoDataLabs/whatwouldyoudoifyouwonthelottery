@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/bingo.html",
+  "final_url": "https://www.rilot.com/en-us/winning-numbers/bingo.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 299715,
+  "elapsed_sec": 1.268,
+  "fetched_at": "2025-09-14T17:44:12.282209Z",
+  "sha256": "74db976b3a03f0dad683607d3038a1905fd5ef8abf7d2bad82a3c14f727b8f01",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:44:11 GMT",
+    "content-type": "text/html",
+    "content-length": "299715",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Sun, 07 Sep 2025 05:26:18 GMT",
+    "etag": "\"492c3-63e2f4f7f8512\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T174411Z-r17d7dbb565qcvmxhC1LAXz4k800000007ag00000000a0rh",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/bingo.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

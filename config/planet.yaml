@@ -1,0 +1,113 @@
+planet:
+  name: "What Would You Do If You Won The Lottery"
+  domain: "whatwouldyoudoifyouwonthelottery.com"
+  description: "Latest draw results and datasets, auto-published as articles and JSON for agents."
+  brand:
+    primary: "#4b9fff"
+    secondary: "#18181b"
+    accent: "#ffd166"
+    logo: "/assets/logo.svg"       # optional: swap per planet
+  runtime:
+    timezone: "America/Los_Angeles"
+    lang: "en"                     # used in <html lang> and JSON-LD inLanguage
+
+targets: "layer1/targets.txt"      # list of source URLs
+
+seo:
+  keywords: ["lottery", "Powerball", "MegaMillions", "draw results", "jackpot"]
+  canonical_base: "https://whatwouldyoudoifyouwonthelottery.com"
+  title_suffix: " · What Would You Do If You Won The Lottery?"
+  meta_description_default: "Live lottery results as clean datasets (JSON/CSV) with auto-written articles for humans and agents."
+  robots:
+    index: true
+    follow: true
+  cluster:
+    pillar: "/blog/lottery-index.html"
+    siblings: []                   # add related post slugs when they exist
+
+links:
+  hub_url: "https://hypnodata.com"
+  hypnodata_planet_directory_json: "https://hypnodata.com/planets.json"   # renders “Planets” menu
+
+bots:
+  allow_google: true
+  allow_bing: true
+  allow_gptbot: true
+  allow_google_extended: true
+  allow_perplexity: true
+  notes: "Read allowed; bulk training/licensing requires permission."
+
+license:
+  human_text: "CC BY 4.0 — credit and link required for reuse."
+  url: "/license.html"
+
+cache:
+  page_max_age: 600        # seconds
+  dataset_max_age: 86400   # seconds
+
+dataset:
+  slug: "lottery-draws"
+  output_basename: "latest-draws"    # results at /datasets/latest-draws.json|.csv
+  schema_path: "config/schema.dataset.json"
+  versioning:
+    strategy: "date"                 # "date" or "semver"; we stamp version + last_updated
+  fields: ["date","game","numbers","jackpot_usd","winners","source_url","fetched_at","version","last_updated"]
+
+publish:
+  pages:
+    dataset_page: "/data/lottery-draws.html"
+    blog_prefix: "/blog/"            # article goes to /blog/{yyyy-mm-dd}-lottery-draws.html
+  sitewide:
+    show_planet_directory: true      # pulls JSON from links.hypnodata_planet_directory_json
+    show_developers_link: true
+    show_data_catalog_link: true
+
+feeds:
+  enable_rss: false
+  json_paths:
+    blog: "/feeds/blog.json"
+    datasets: "/feeds/datasets.json"
+
+og:
+  default_image_text: "What would you do if you won?"
+  twitter_card: "summary_large_image"
+
+analytics:
+  enabled: false                     # set true when you wire your tool
+  provider: "ga4"                    # or "plausible", "umami", etc.
+  id: ""                             # e.g., G-XXXXXXXXX
+  outbound_utm:
+    enabled: true
+    source: "ai"
+    medium: "summary"
+    campaign_from_slug: true         # appends ?utm_campaign={post-slug}
+
+headers:
+  cors_enabled: true
+  cors_allow_origin: "*"
+  datasets_cache_control: "public, max-age=86400, stale-while-revalidate=86400"
+  pages_cache_control: "public, max-age=600, stale-while-revalidate=3600"
+
+verify:
+  link_check: true
+  bot_probe:
+    enabled: true
+    user_agents: ["Googlebot","GPTBot"]
+  lighthouse:
+    warn_if_perf_below: 80
+    warn_if_a11y_below: 80
+    block_publish: false
+
+sitemap:
+  include_lastmod: true
+
+provenance:
+  show_checksums: true               # sha256 on dataset page
+  provenance_log: false              # advanced; add later
+
+advanced:                            # off by default; easy to flip later
+  ai_bundle_enabled: false           # /ai-bundles/YYYY-MM.zip
+  claims_feed_enabled: false         # /feeds/claims.json + per-claim anchors
+  changefeed_enabled: false          # /feeds/datasets-diff.json
+  openapi_wellknown: false           # /.well-known/openapi.json
+  glossary_enabled: false            # /glossary.json

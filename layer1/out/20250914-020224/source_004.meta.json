@@ -1,0 +1,30 @@
+{
+  "url": "https://www.lottoamerica.com/",
+  "final_url": "https://www.lottoamerica.com/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 15007,
+  "elapsed_sec": 0.27,
+  "fetched_at": "2025-09-14T02:02:30.978593Z",
+  "sha256": "39274d9b49d16e0fd44ee2d9c5238ea080cee68e51fa9d6f0ac1e739ba88dd48",
+  "headers": {
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "content-type": "text/html; charset=utf-8",
+    "content-encoding": "gzip",
+    "expires": "-1",
+    "last-modified": "Thu, 11 Sep 2025 03:52:02 BST",
+    "vary": "User-Agent,Accept-Encoding",
+    "server": "Microsoft-IIS/10.0",
+    "x-aspnet-version": "4.0.30319",
+    "set-cookie": "AdvInt=989f7376-2418-47e4-906a-7e68b490f248|CMriors6flIYhmvT8zL5EQ==:Um8oVbaUuG8nT9DKJKy08Kos8XY+altizUW5GV7e9mvrpofkimMMQ+okUA26zXSIxNLIc0gSMfkDhWoqmCst5wfE39DzbtwUdBWl+xJU7DkLOY+he/iHRGMmo5xcQMaOpKZtyzpO49W0oicmxGE3Eg==; expires=Fri, 13-Mar-2026 03:02:30 GMT; path=/",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "deny",
+    "x-xss-protection": "1; mode=block",
+    "date": "Sun, 14 Sep 2025 02:02:30 GMT",
+    "connection": "close",
+    "content-length": "5176"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

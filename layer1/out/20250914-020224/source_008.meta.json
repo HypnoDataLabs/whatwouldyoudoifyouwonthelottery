@@ -1,0 +1,26 @@
+{
+  "url": "https://www.oregonlottery.org/games/draw-games/",
+  "final_url": "https://www.oregonlottery.org/404-2/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 63746,
+  "elapsed_sec": 0.98,
+  "fetched_at": "2025-09-14T02:02:39.867528Z",
+  "sha256": "38e6d51ae17c9628d2fd435881117f0c10d926a9cd3fa14f146874c9878e0bc7",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:02:39 GMT",
+    "content-type": "text/html",
+    "content-length": "63746",
+    "connection": "close",
+    "etag": "\"1dc243d38de3b02\"",
+    "last-modified": "Fri, 12 Sep 2025 23:30:28 GMT",
+    "request-context": "appId=cid-v1:be07b2ef-09f7-40df-99d6-03acb191e649",
+    "x-azure-ref": "20250914T020239Z-r17d7dbb5659spbghC1LAX8mc000000004w000000000fx32",
+    "cache-control": "public, max-age=900",
+    "x-fd-int-roxy-purgeid": "0",
+    "x-cache": "TCP_HIT",
+    "x-cache-info": "L1_T2",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}

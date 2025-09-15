@@ -1,0 +1,26 @@
+{
+  "url": "https://www.ohiolottery.com/WinningNumbers",
+  "final_url": "https://www.ohiolottery.com/WinningNumbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 66073,
+  "elapsed_sec": 0.55,
+  "fetched_at": "2025-09-14T02:06:28.845466Z",
+  "sha256": "ca9b517366313fe91dc2990612e60e407ed491f40d82a5c4bc9866e7ebd769ba",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:06:28 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "x-xss-protection": "1; mode=block",
+    "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "gzip",
+    "cf-ray": "97ec53442f1208e6-LAX"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

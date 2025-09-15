@@ -1,0 +1,129 @@
+
+:root{
+  /* Theme */
+  --bg:#0b0c10;
+  --fg:#f7f7fb;
+  --muted:#c7c9d3;
+  --primary:#4b9fff;
+  --accent:#ffd166;
+  --card:#111216;
+
+  /* Layout */
+  --radius:14px;
+  --shadow:0 8px 24px rgba(0,0,0,.25);
+  --space-1:8px; --space-2:12px; --space-3:16px; --space-4:24px; --space-5:40px;
+
+  /* Focus ring */
+  --ring:0 0 0 3px rgba(75,159,255,.35);
+}
+
+*{box-sizing:border-box}
+html:focus-within{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){
+  html:focus-within{scroll-behavior:auto}
+  *{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important}
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:none;box-shadow:var(--ring);border-radius:8px}
+
+header,footer{padding:var(--space-3)}
+footer{color:var(--muted);font-size:.92rem}
+
+.hero{
+  display:grid;place-items:center;
+  padding:var(--space-5) var(--space-3);
+  background:linear-gradient(180deg,#12131a,#0b0c10);
+  text-align:center;
+}
+.logo{width:64px;height:64px;opacity:.9;margin-bottom:var(--space-2)}
+
+.container{max-width:960px;margin:0 auto;padding:var(--space-3)}
+@media (min-width:1200px){ .container{max-width:1080px} }
+
+ul{padding-left:20px;margin-top:0}
+.meta{color:var(--muted);font-size:.92rem}
+
+.facts{margin:var(--space-3) 0}
+.facts li{margin:6px 0}
+
+/* Cards */
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:var(--space-3);
+}
+.card + .card{margin-top:var(--space-3)}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:10px 14px;border-radius:10px;
+  background:var(--primary);color:#081018;border:0;
+  font-weight:600;cursor:pointer;text-decoration:none;
+  transition:transform .06s ease, box-shadow .06s ease;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn:focus-visible{outline:none;box-shadow:var(--ring)}
+.btn.secondary{background:#22242c;color:var(--fg);border:1px solid #2a2c35}
+.btn.accent{background:var(--accent);color:#0b0c10}
+
+/* Badges */
+.badge{
+  display:inline-block;border-radius:999px;
+  padding:4px 10px;font-size:.82rem;font-weight:600;
+  background:#222630;color:var(--muted);
+}
+.badge.success{background:#13361f;color:#9ae6b4}
+.badge.warn{background:#3a2b12;color:#ffd166}
+
+/* Tables (for dataset previews) */
+.table{width:100%;border-collapse:collapse;border-spacing:0;margin:var(--space-3) 0}
+.table th,.table td{padding:10px 12px;text-align:left;border-bottom:1px solid #1e2027}
+.table th{color:var(--muted);font-weight:600}
+.table tr:hover td{background:#0f1016}
+
+/* Code blocks */
+pre{background:var(--card);padding:var(--space-3);border-radius:var(--radius);overflow:auto}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.95em}
+
+/* Simple grid utilities */
+.grid{display:grid;gap:var(--space-3)}
+.grid.cols-2{grid-template-columns:repeat(1,1fr)}
+@media (min-width:760px){ .grid.cols-2{grid-template-columns:repeat(2,1fr)} }
+.grid.cols-3{grid-template-columns:repeat(1,1fr)}
+@media (min-width:980px){ .grid.cols-3{grid-template-columns:repeat(3,1fr)} }
+
+/* Forms (future-proof) */
+input,select,textarea{
+  width:100%;background:#12131a;color:var(--fg);
+  border:1px solid #2a2c35;border-radius:10px;
+  padding:10px 12px;outline:none;
+}
+input:focus-visible,select:focus-visible,textarea:focus-visible{box-shadow:var(--ring);border-color:#366fb3}
+
+/* Breadcrumbs & small nav */
+.breadcrumbs{
+  display:flex;gap:6px;align-items:center;color:var(--muted);font-size:.92rem;margin:var(--space-2) 0;
+}
+.breadcrumbs a{color:var(--muted)}
+.breadcrumbs a:hover{color:var(--fg)}
+
+/* Print: make pages readable */
+@media print{
+  body{background:#fff;color:#000}
+  .hero,.btn{display:none}
+  a{color:#000;text-decoration:underline}
+}

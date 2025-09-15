@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/keno.html",
+  "final_url": "https://www.rilot.com/en-us/winning-numbers/keno.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 296285,
+  "elapsed_sec": 0.837,
+  "fetched_at": "2025-09-14T17:44:09.207488Z",
+  "sha256": "02ce3755dd8b602d275d3916f2e70cfa03eb0151cf067918195b8a85b6e7e691",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:44:08 GMT",
+    "content-type": "text/html",
+    "content-length": "296285",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Sun, 07 Sep 2025 04:50:31 GMT",
+    "etag": "\"4855d-63e2ecf883fa9\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T174408Z-r17d7dbb565jbdbzhC1LAX26nn00000006yg00000000960n",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/content/interactive/ilottery/en/winning-numbers/keno.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

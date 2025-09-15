@@ -1,0 +1,35 @@
+{
+  "url": "https://www.lottery.nd.gov/",
+  "final_url": "https://www.lottery.nd.gov/public",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 6273550,
+  "elapsed_sec": 3.047,
+  "fetched_at": "2025-09-14T20:14:51.167002Z",
+  "sha256": "95b7a0157a2e48d38c8ab58c8a00296a9d36918ad1e3a362fdd23a480817b477",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:48 GMT",
+    "server": "State of North Dakota",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "content-type": "text/html; charset=utf-8",
+    "expires": "-1",
+    "x-aspnetmvc-version": "5.2",
+    "content-security-policy": "frame-ancestors",
+    "content-length": "6273550",
+    "x-xss-protection": "1;  mode=block",
+    "x-content-type-options": "nosniff",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.lottery.nd.gov/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

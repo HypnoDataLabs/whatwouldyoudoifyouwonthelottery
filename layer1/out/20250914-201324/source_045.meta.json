@@ -1,0 +1,36 @@
+{
+  "url": "https://www.texaslottery.com/export/sites/lottery/Games/",
+  "final_url": "https://www.texaslottery.com/export/sites/lottery/Games/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 46699,
+  "elapsed_sec": 0.541,
+  "fetched_at": "2025-09-14T20:15:15.014996Z",
+  "sha256": "74f7ee5e0ee9b96339342029862289127f6b66ed79d1e64de8dd272d30977ec6",
+  "headers": {
+    "content-type": "text/html",
+    "content-length": "46699",
+    "connection": "close",
+    "date": "Sun, 14 Sep 2025 20:15:14 GMT",
+    "x-frame-options": "DENY",
+    "server": "",
+    "accept-ranges": "bytes",
+    "etag": "W/\"46699-1757845241521\"",
+    "last-modified": "Sun, 14 Sep 2025 10:20:41 GMT",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 c703cf390f18b60c4ad9af8be44f5e46.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "LAX53-P4",
+    "x-amz-cf-id": "wyCq8iDTddj1ucoIOV16478esprhj444jqkfUUwXtteQK-cOIJv5wg=="
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.texaslottery.com/export/sites/lottery/Games/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

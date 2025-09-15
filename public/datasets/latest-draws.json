@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2025-09-13",
+    "game": "Powerball",
+    "numbers": [
+      13,
+      28,
+      37,
+      42,
+      50,
+      3
+    ],
+    "jackpot_usd": 64000000,
+    "winners": null,
+    "source_url": "https://ialottery.com/pages/games-online/PowerballWin.aspx",
+    "fetched_at": "2025-09-15T19:59:58.361942Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-15",
+    "game": "Powerball",
+    "numbers": [
+      28,
+      37,
+      42,
+      50,
+      53,
+      2
+    ],
+    "jackpot_usd": 30000000,
+    "winners": null,
+    "source_url": "https://www.coloradolottery.com/en/",
+    "fetched_at": "2025-09-15T19:59:58.452680Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-14",
+    "game": "Powerball",
+    "numbers": [
+      28,
+      37,
+      42,
+      50,
+      53,
+      3
+    ],
+    "jackpot_usd": 64000000,
+    "winners": null,
+    "source_url": "https://www.mainelottery.com/",
+    "fetched_at": "2025-09-15T19:59:58.730296Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-13",
+    "game": "Powerball",
+    "numbers": [
+      17,
+      18,
+      21,
+      42,
+      6,
+      9
+    ],
+    "jackpot_usd": 400,
+    "winners": null,
+    "source_url": "https://www.ohiolottery.com/winningnumbers",
+    "fetched_at": "2025-09-15T19:59:59.001645Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-12",
+    "game": "Powerball",
+    "numbers": [
+      17,
+      18,
+      21,
+      42,
+      64,
+      7
+    ],
+    "jackpot_usd": 185800000,
+    "winners": null,
+    "source_url": "https://louisianalottery.com/",
+    "fetched_at": "2025-09-15T19:59:59.030949Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-15",
+    "game": "Powerball",
+    "numbers": [
+      28,
+      37,
+      42,
+      50,
+      5,
+      1
+    ],
+    "jackpot_usd": 64000000,
+    "winners": null,
+    "source_url": "https://www.kslottery.com/powerball/",
+    "fetched_at": "2025-09-15T19:59:59.094089Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-13",
+    "game": "Powerball",
+    "numbers": [
+      28,
+      37,
+      42,
+      50,
+      5,
+      19
+    ],
+    "jackpot_usd": 15,
+    "winners": null,
+    "source_url": "https://floridalottery.com/games/winning-numbers",
+    "fetched_at": "2025-09-15T19:59:59.194863Z",
+    "extraction_method": "html",
+    "confidence": null
+  },
+  {
+    "date": "2025-09-09",
+    "game": "Powerball",
+    "numbers": [
+      13,
+      28,
+      37,
+      42,
+      50,
+      3
+    ],
+    "jackpot_usd": null,
+    "winners": null,
+    "source_url": "https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx",
+    "fetched_at": "2025-09-15T19:59:59.934179Z",
+    "extraction_method": "html",
+    "confidence": null
+  }
+]

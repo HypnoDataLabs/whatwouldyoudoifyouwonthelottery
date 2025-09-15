@@ -1,0 +1,8 @@
+[
+  {
+    "url": "https://tr.snapchat.com/config/com/1658d8a9-4173-4dd4-8e47-048d84662a03.json?v=3.47.16-2509111815",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"asc\":[],\"gw\":null,\"a\":[\"PII\",\"AV3\"],\"ipg\":\"1\",\"b\":[],\"t\":\"\",\"v\":\"3.7.5-2401032347\",\"tpd\":[],\"ec\":[]}"
+  }
+]

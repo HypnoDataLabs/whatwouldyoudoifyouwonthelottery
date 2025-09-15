@@ -1,0 +1,33 @@
+{
+  "url": "https://www.arizonalottery.com/winning-numbers",
+  "final_url": "https://www.arizonalottery.com/winning-numbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 41364,
+  "elapsed_sec": 0.451,
+  "fetched_at": "2025-09-14T20:13:34.173729Z",
+  "sha256": "b2f36af231e6707e6ff647e3d4a00956c2f14ff05bbb89ec595812fffae17a51",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:13:34 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "x-powered-by": "ASP.NET",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=tTRPFELcPJt2_wJTDfp8Pantbg7lg4P8dCSWdCoWJok-1757880814-1.0.1.1-S_bh.qolfMcHRHFGPLdrsTV4Udm0wgZb.vZYuScBHvtpyNoEhwGzRd3C3r3ZWuyZ3JL.v9O4mX.amPqV3wOR8_1mobHbjfYo9ynTEAMCyqM; path=/; expires=Sun, 14-Sep-25 20:43:34 GMT; domain=.arizonalottery.com; HttpOnly; Secure; SameSite=None",
+    "server": "cloudflare",
+    "cf-ray": "97f28bae2d8990fe-LAX"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.arizonalottery.com/winning-numbers",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/en-us/winning-numbers/check-your-ticket.html#tab-instant-tickets",
+  "final_url": "https://www.rilot.com/en-us/winning-numbers/check-your-ticket.html#tab-instant-tickets",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 196856,
+  "elapsed_sec": 0.539,
+  "fetched_at": "2025-09-14T17:44:48.226701Z",
+  "sha256": "f9050ccd2fc2b3792c6b69ca13c2f3d19acd787063f8565b0e570a35dd5a0242",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:44:48 GMT",
+    "content-type": "text/html",
+    "content-length": "196856",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Sun, 07 Sep 2025 04:44:52 GMT",
+    "etag": "\"300f8-63e2ebb55c587\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T174447Z-r17d7dbb565f8mhphC1LAXq2ts00000001b000000000bk7b",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/en-us/winning-numbers/check-your-ticket.html#tab-instant-tickets",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

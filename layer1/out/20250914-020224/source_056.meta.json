@@ -1,0 +1,30 @@
+{
+  "url": "https://www.national-lottery.co.uk/results",
+  "final_url": "https://www.national-lottery.co.uk/results",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 148402,
+  "elapsed_sec": 1.199,
+  "fetched_at": "2025-09-14T02:09:34.135981Z",
+  "sha256": "f372987168c1672ef42e821359a35d4b7f74bc7784ab2983869b12007b340e23",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 02:09:34 GMT",
+    "server": "Camelot",
+    "vary": "*,Accept-Encoding",
+    "cache-control": "no-cache, no-store, must-revalidate",
+    "expires": "Fri, 01 Jan 1999 00:00:00 GMT",
+    "x-frame-options": "sameorigin",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-ua-compatible": "IE=edge",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-eval' tags.tiqcdn.com tealium.hs.llnwd.net service.maxymiser.net camelotcdn.abaresearch.uk www.google.com www.gstatic.com visitor-service-eu-west-1.tealiumiq.com visitor-service.tealiumiq.com cdn.otherlevels.com https://d1tbz2wut6tv8f.cloudfront.net/camelot/detect www.cdn-national-lottery.co.uk fls.doubleclick.net secure.adnxs.com access.worldpay.com p.teads.tv cm.teads.tv secure.quantserve.com rules.quantcount.com dpm.demdex.net analytics.national-lottery.co.uk www.googletagmanager.com connect.facebook.net sc-static.net static.ads-twitter.com js.adsrvr.org analytics.tiktok.com tr.snapchat.com fledge.teads.tv tag.aticdn.net d2zasqxhmd6ne4.cloudfront.net 'sha256-36bJUElYB/duSojv1p+qLoTvOehDBYZ59NhxL8BUTbk=' blob:; style-src 'self' 'unsafe-inline' camelotcdn.abaresearch.uk service.maxymiser.net www.cdn-national-lottery.co.uk d2zasqxhmd6ne4.cloudfront.net; frame-src 'self' https://payments1.national-lottery.co.uk https://payments2.national-lottery.co.uk *.doubleclick.net *.tealiumiq.com www.youtube.com service.maxymiser.net qgen.abaresearch.co.uk www.google.com chat.national-lottery.co.uk aax-eu.amazon-adsystem.com access.worldpay.com camelotuklotterieslimited.demdex.net tr.snapchat.com www.facebook.com fledge.teads.tv insight.adsrvr.org www.youtube-nocookie.com; img-src 'self' camelot.d3.sc.omtrdc.net service.maxymiser.net camelotcdn.abaresearch.uk i.ctnsnet.com www.cdn-national-lottery.co.uk datacloud.tealiumiq.com ib.adnxs.com secure.adnxs.com t.teads.tv l.teads.tv secure.quantserve.com pixel.quantserve.com dpm.demdex.net analytics.national-lottery.co.uk ad.doubleclick.net tr.snapchat.com t.co analytics.twitter.com cm.everesttech.net cm.teads.tv www.facebook.com data: blob:; connect-src 'self' camelotcdn.abaresearch.uk *.tealiumiq.com visitor-service-eu-west-1.tealiumiq.com visitor-service.tealiumiq.com js-api.otherlevels.com js-tags.otherlevels.com js-content.otherlevels.com js-mdn.otherlevels.com js-rich.otherlevels.com js-deliverability-api.otherlevels.com client-reporting.otherlevels.com https://d1tbz2wut6tv8f.cloudfront.net/camelot/detect prp-prod-ia-pub.national-lottery.co.uk www.cdn-national-lottery.co.uk chatapi.national-lottery.co.uk fra-col.eum-appdynamics.com t.teads.tv cm.teads.tv dpm.demdex.net analytics.national-lottery.co.uk camelot.d3.sc.omtrdc.net tr.snapchat.com tr6.snapchat.com analytics.tiktok.com www.google.com adl.national-lottery.co.uk f3au4nygfj.execute-api.eu-west-2.amazonaws.com participant.connect.eu-west-2.amazonaws.com d2zasqxhmd6ne4.cloudfront.net wss://tufsuyburufn.transport.connect.eu-west-2.amazonaws.com ; worker-src 'self' blob:; frame-ancestors 'self'; font-src 'self' www.cdn-national-lottery.co.uk; manifest-src 'self' www.cdn-national-lottery.co.uk",
+    "content-type": "text/html;charset=UTF-8",
+    "content-language": "en-GB",
+    "content-encoding": "gzip",
+    "set-cookie": "cam2=!wKQYUUdZ0ZQRMVU2U87GHMxTJnIMeuHOATPaK8hyXvl0U0yT9ZbH9dBEYZ7jB6Ei2Lh6dNtAzr4T2g==; Path=/; Version=1; SameSite=None; Secure; Httponly",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "strict-transport-security": "max-age=31536000 ; national-lottery.co.uk"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

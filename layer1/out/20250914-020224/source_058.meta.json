@@ -1,0 +1,31 @@
+{
+  "url": "https://www.salottery.co.za/results",
+  "final_url": "https://www.salottery.co.za/results",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 17189,
+  "elapsed_sec": 1.315,
+  "fetched_at": "2025-09-14T02:09:38.689695Z",
+  "sha256": "1b135415efec851702efaeb35e9f82ca2c3f37c65eff83f494cb1a0a4943c859",
+  "headers": {
+    "accept-ch": "ua-mobile",
+    "accept-ch-lifetime": "30",
+    "alt-svc": "h3=\":8443\"; ma=2592000",
+    "content-encoding": "gzip",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 14 Sep 2025 02:09:38 GMT",
+    "vary": "Accept-Encoding",
+    "via": "0.0 Caddy",
+    "x-adblock-key": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALquDFETXRn0Hr05fUP7EJT77xYnPmRbpMy4vk8KYiHnkNpednjOANJcaXDXcKQJN0nXKZJL7TciJD8AoHXK158CAwEAAQ==_b+lppwGSRfqlPXc9jLOVof3iajSgCPvvwLVFDF9cmeCQm9aQjTNTDanRnsgTerq+B5pNDyTSAeW1ohrhU6/XqA==",
+    "x-buckets": "bucket011,bucket088,bucket089,bucket077",
+    "x-domain": "salottery.co.za",
+    "x-language": "english",
+    "x-pcrew-blocked-reason": "",
+    "x-pcrew-ip-organization": "Frontier Communications",
+    "x-subdomain": "www",
+    "x-template": "tpl_CleanPeppermintBlack_twoclick",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

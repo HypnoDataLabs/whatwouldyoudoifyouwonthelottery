@@ -1,0 +1,9 @@
+host: www.kslottery.com
+game: Powerball
+scope_contains: ["powerball"]
+# optional CSS: if they use cards/sections with game titles, uncomment and tune
+# css_scope: "main, section, article, .card, .results, .winning-numbers"
+date_regex: "(?i)(?:draw|drawing|date)[^\\n]{0,30}([A-Za-z]{3,9}\\.? \\d{1,2}(?:, \\d{2,4})?|\\d{1,2}/\\d{1,2}/\\d{2,4})"
+numbers_regex: "(?i)(?:powerball[^\\d]{0,20})?(\\b\\d{1,2}\\b(?:\\s*[,-•–—]\\s*|\\s+)){4,6}"
+bonus_regex: "(?i)(power\\s*ball|pb|bonus)[^\\d]{0,6}(\\d{1,2})"
+jackpot_regex: "(?i)jackpot[^$0-9]{0,60}[$ ]?\\d[\\d,\\.]*"

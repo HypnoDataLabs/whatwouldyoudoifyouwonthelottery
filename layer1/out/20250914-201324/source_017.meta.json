@@ -1,0 +1,41 @@
+{
+  "url": "https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx",
+  "final_url": "https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 84328,
+  "elapsed_sec": 0.717,
+  "fetched_at": "2025-09-14T20:14:05.078813Z",
+  "sha256": "92727d321b5d92f2826539315dee30f81f7bc22512ebdb30f1c53282c20805e2",
+  "headers": {
+    "cache-control": "private",
+    "content-type": "text/html; charset=utf-8",
+    "server": "",
+    "set-cookie": "ASP.NET_SessionId=afeecc5wxzb5p2w25c45fis4; path=/; HttpOnly; SameSite=Lax",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": "geolocation=(self), microphone=(), camera=()",
+    "content-security-policy-report-only": "default-src 'self'; script-src 'report-sample' 'self' https://app-script.monsido.com/v2/monsido-script.js https://apps.usw2.pure.cloud/genesys-bootstrap/genesys.min.js https://connect.facebook.net/en_US/fbevents.js https://js.adsrvr.org/up_loader.1.1.0.js https://s.swiftypecdn.com/install/v2/st.js https://sc-static.net/scevent.min.js https://ssl.google-analytics.com/ga.js https://static.ads-twitter.com/uwt.js https://tr.snapchat.com/config/com/f46d0350-ae7f-4886-b620-b497a4d93c9f.js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtm.js; style-src 'report-sample' 'self'; object-src 'none'; base-uri 'self'; connect-src 'self' https://capidashboard.ialottery.com https://tr.snapchat.com https://tr6.snapchat.com https://www.google-analytics.com; font-src 'self'; frame-src 'self' https://10921257.fls.doubleclick.net https://apps.usw2.pure.cloud https://insight.adsrvr.org https://pixel-sync.sitescout.com https://tr.snapchat.com https://www.youtube.com; img-src 'self' https://analytics.twitter.com https://ssl.google-analytics.com https://t.co https://tracking.monsido.com https://www.facebook.com https://www.google.com; manifest-src 'self'; media-src 'self'; report-uri https://668597ef014602b312931fd2.endpoint.csper.io/?v=0; worker-src 'none';",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-methods": "GET,POST,PUT,DELETE,OPTIONS",
+    "access-control-allow-credentials": "true",
+    "date": "Sun, 14 Sep 2025 20:13:51 GMT",
+    "connection": "close",
+    "content-length": "84328"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Latest Lottery Draws — Captain Keno</title>
+  <link rel="canonical" href="/blog/">
+  <meta name="description" content="Filterable, downloadable feed of the latest US lottery draws.">
+  <style>
+    :root{
+      --fg:#e7e7ea; --muted:#aaa; --bg:linear-gradient(135deg,#0b0b0c 0%,#101830 100%);
+      --line:#2a2a2d; --chip:#1c1c22; --gold:#ffd700; --link:#8ab4ff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      color:var(--fg); background:var(--bg); min-height:100vh; display:flex; flex-direction:column;
+    }
+    /* top bar */
+    .topbar{
+      position:sticky; top:0; z-index:5;
+      display:flex; align-items:center; gap:12px; padding:10px 16px;
+      border-bottom:1px solid var(--line); background:rgba(0,0,0,.65); backdrop-filter:blur(8px);
+    }
+    .topbar a.home{
+      color:var(--gold); text-decoration:none; font-weight:700;
+      text-shadow:0 0 10px #ffd70055;
+    }
+    .spacer{flex:1}
+    .pill{display:inline-block; padding:6px 10px; border-radius:999px; border:1px solid var(--line); background:#121218; color:var(--link); text-decoration:none; font-size:.95rem}
+    .pill:hover{border-color:#3a3a42}
+
+    header{padding:18px 24px 10px}
+    h1{margin:0 0 8px; font-size:28px; color:var(--gold); text-shadow:0 0 10px #ffd70055}
+    .meta{color:var(--muted); font-size:14px}
+    .meta code{background:#151a2b; border:1px solid #2b2f4a; padding:1px 6px; border-radius:6px; color:#cfe0ff}
+
+    main{padding:14px 24px 64px; max-width:1200px; margin:0 auto; flex:1}
+    .controls{display:flex; gap:12px; flex-wrap:wrap; margin:12px 0 16px}
+    .controls input,.controls select{
+      padding:10px 12px; border:1px solid var(--line); border-radius:10px; min-width:220px; background:#111; color:#fff;
+    }
+
+    table{width:100%; border-collapse:collapse}
+    thead th{
+      text-align:left; font-weight:600; padding:10px 8px; border-bottom:2px solid var(--line);
+      background:#151518; color:var(--gold);
+    }
+    tbody tr:hover{background:#1a1b22; box-shadow:inset 0 0 10px #ffd70033}
+    tbody td{padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top}
+    .nums{display:flex; gap:6px; flex-wrap:wrap}
+    .ball{
+      border-radius:999px; padding:6px 12px; font-variant-numeric:tabular-nums; color:#fff; font-weight:700; text-shadow:0 0 6px rgba(0,0,0,.8);
+      animation:glow 3s infinite ease-in-out;
+    }
+    .ball:nth-child(5n+1){background:#ff4081; box-shadow:0 0 8px #ff4081}
+    .ball:nth-child(5n+2){background:#40c4ff; box-shadow:0 0 8px #40c4ff}
+    .ball:nth-child(5n+3){background:#ffd740; color:#111; box-shadow:0 0 8px #ffd740}
+    .ball:nth-child(5n+4){background:#69f0ae; box-shadow:0 0 8px #69f0ae}
+    .ball:nth-child(5n+5){background:#b388ff; box-shadow:0 0 8px #b388ff}
+    @keyframes glow{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+
+    .count{color:var(--muted); font-size:14px; margin:6px 0 14px}
+    .links{margin-top:6px; font-size:14px}
+    .links a{color:var(--link); text-decoration:none}
+    .links a:hover{text-decoration:underline}
+    .empty{padding:18px; background:#1b1c21; border:1px solid #3a3a42; border-radius:12px; color:var(--gold); text-align:center}
+
+    footer{padding:18px 24px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; background:#111; text-align:center}
+    .badge{background:#151a2b; color:var(--gold); border:1px solid #333; padding:2px 8px; border-radius:999px; font-size:12px}
+    .note{color:var(--muted); font-size:12px}
+  </style>
+</head>
+<body>
+  <!-- top bar -->
+  <div class="topbar">
+    <a class="home" href="/">← Home</a>
+    <div class="spacer"></div>
+    <a class="pill" href="/datasets/latest-draws.json">JSON</a>
+    <a class="pill" href="/datasets/latest-draws.csv">CSV</a>
+  </div>
+
+  <header>
+    <h1>Latest Lottery Draws <span id="ver" class="badge"></span></h1>
+    <div class="meta">
+      Data source: <code>/datasets/latest-draws.json</code> • Updated <span id="updated">—</span>
+      <div class="links">
+        <a href="/blog/lottery-draws.html">View blog post</a> ·
+        <span class="note">Jackpot shows “(from state site; may be cash value)” when appropriate.</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Filter by game or source URL…" />
+      <select id="game"><option value="">All games</option></select>
+      <select id="date"><option value="">All dates</option></select>
+    </div>
+    <div class="count" id="count">—</div>
+    <div id="mount"></div>
+  </main>
+
+  <footer>
+    Powered by Captain Keno 🐿️ — Built from Layer 1/2 pipeline.
+  </footer>
+
+  <script>
+    const el = (s)=>document.querySelector(s);
+    const fmtDate = (s)=>s?.slice(0,10);
+    const mount = el('#mount');
+    const q = el('#q'), gameSel = el('#game'), dateSel = el('#date');
+    let data = { records:[], version:"", last_updated:"" };
+
+    function jackpotDisplay(r){
+      const v = r.jackpot_usd!=null ? ('$'+Number(r.jackpot_usd).toLocaleString()) : '—';
+      if(v==='—') return v;
+      const jt = (r.jackpot_type||'').trim().toLowerCase();
+      if(jt) return `${v} (${jt})`;
+      // soft disclaimer when we only have a state-site value
+      const src = (r.source_url||'').toLowerCase();
+      if(src && (src.includes('lottery') || src.includes('lotto'))) {
+        return `${v} (from state site; may be cash value)`;
+      }
+      return v;
+    }
+
+    function render(records){
+      if(!records?.length){
+        mount.innerHTML = '<div class="empty">No records matched your filters. Try clearing them.</div>';
+        el('#count').textContent = '0 records';
+        return;
+      }
+      const rows = records.map(r=>{
+        const balls = (r.numbers||[]).map((n,i)=>`<span class="ball" title="${i<5?'main ball':'bonus'}">${n}</span>`).join('');
+        return `<tr>
+          <td>${fmtDate(r.date)||'—'}</td>
+          <td>${r.game||'—'}</td>
+          <td><div class="nums">${balls}</div></td>
+          <td>${jackpotDisplay(r)}</td>
+          <td>${r.winners!=null ? r.winners.toLocaleString() : '—'}</td>
+          <td><a href="${r.source_url||'#'}" target="_blank" rel="noopener">${r.source_url||'—'}</a></td>
+        </tr>`;
+      }).join('');
+      mount.innerHTML = `<table>
+        <thead>
+          <tr><th>Date</th><th>Game</th><th>Numbers</th><th>Jackpot</th><th>Winners</th><th>Source</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+      el('#count').textContent = `${records.length} record${records.length===1?'':'s'}`;
+    }
+
+    function applyFilters(){
+      const term = q.value.trim().toLowerCase();
+      const g = gameSel.value;
+      const d = dateSel.value;
+      const filtered = data.records.filter(r=>{
+        const okG = !g || r.game===g;
+        const okD = !d || (r.date||'').startsWith(d);
+        const okQ = !term || (r.game||'').toLowerCase().includes(term) || (r.source_url||'').toLowerCase().includes(term);
+        return okG && okD && okQ;
+      });
+      render(filtered);
+    }
+
+    function hydrateFilters(records){
+      const games = Array.from(new Set(records.map(r=>r.game))).filter(Boolean).sort();
+      gameSel.innerHTML = '<option value="">All games</option>' + games.map(g=>`<option value="${g}">${g}</option>`).join('');
+      const dates = Array.from(new Set(records.map(r=>(r.date||'').slice(0,10)))).filter(Boolean).sort().reverse();
+      dateSel.innerHTML = '<option value="">All dates</option>' + dates.map(d=>`<option value="${d}">${d}</option>`).join('');
+    }
+
+    async function boot(){
+      try{
+        const res = await fetch('/datasets/latest-draws.json', { cache:'no-store' });
+        if(!res.ok) throw new Error(res.status+' '+res.statusText);
+        const payload = await res.json();
+
+        // Accept plain array OR {records, version, last_updated}
+        const records = Array.isArray(payload) ? payload
+                      : Array.isArray(payload.records) ? payload.records
+                      : [];
+        const version = payload.version || '';
+        const lastUpdated = payload.last_updated || '';
+
+        data.records = records;
+        data.version = version;
+        data.last_updated = lastUpdated;
+
+        el('#ver').textContent = version ? `v${version}` : '';
+        el('#updated').textContent = lastUpdated || '—';
+
+        hydrateFilters(records);
+        render(records);
+
+        q.addEventListener('input', applyFilters);
+        gameSel.addEventListener('change', applyFilters);
+        dateSel.addEventListener('change', applyFilters);
+      }catch(e){
+        mount.innerHTML = '<div class="empty">Could not load dataset. Make sure /datasets/latest-draws.json exists.</div>';
+        console.error(e);
+      }
+    }
+    boot();
+  </script>
+</body>
+</html>

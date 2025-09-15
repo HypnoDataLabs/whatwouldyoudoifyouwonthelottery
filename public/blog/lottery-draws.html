@@ -1,0 +1,91 @@
+<!doctype html><meta charset='utf-8'>
+<title>Latest Lottery Draws</title>
+
+<style>
+:root { color-scheme: dark; }
+body{font-family:system-ui,Arial,sans-serif;line-height:1.45;padding:24px;background:#0b0b0c;color:#e7e7ea}
+table{border-collapse:collapse;width:100%;max-width:1000px;margin:10px 0 24px}
+th,td{border:1px solid #2a2a2d;padding:8px 10px;text-align:left}
+th{background:#151518}
+a{color:#8ab4ff}
+.pill{display:inline-block;margin-right:8px;padding:2px 8px;border-radius:999px;background:#151a2b}
+.muted{color:#a0a0a8}
+.hdr{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.right{margin-left:auto}
+.latest{padding:12px 14px;border:1px solid #2a2a2d;border-radius:12px;background:#101014;margin:12px 0}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tablink{padding:6px 10px;border:1px solid #2a2a2d;border-radius:999px;background:#121218;cursor:pointer}
+.tablink.active{background:#1c1c22}
+.section{display:none}
+.section.active{display:block}
+.kv{display:flex;gap:12px;flex-wrap:wrap;margin:6px 0}
+.kv div{padding:4px 8px;border-radius:8px;background:#121218;border:1px solid #2a2a2d}
+code{background:#151518;border:1px solid #2a2a2d;padding:2px 6px;border-radius:6px}
+</style>
+
+<script type='application/ld+json'>
+{&quot;@context&quot;: &quot;https://schema.org&quot;, &quot;@type&quot;: &quot;Dataset&quot;, &quot;name&quot;: &quot;Latest US Lottery Draw Results&quot;, &quot;description&quot;: &quot;Daily compiled lottery draw numbers (Powerball, Mega Millions, Cash4Life) with source attribution to official lottery sites.&quot;, &quot;keywords&quot;: [&quot;lottery&quot;, &quot;winning numbers&quot;, &quot;Powerball&quot;, &quot;Mega Millions&quot;, &quot;Cash4Life&quot;, &quot;jackpot&quot;, &quot;results&quot;], &quot;dateModified&quot;: &quot;2025-09-15T20:00:00Z&quot;, &quot;publisher&quot;: {&quot;@type&quot;: &quot;Organization&quot;, &quot;name&quot;: &quot;HypnoData&quot;, &quot;url&quot;: &quot;&quot;}, &quot;isBasedOn&quot;: [&quot;https://floridalottery.com/games/winning-numbers&quot;, &quot;https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx&quot;, &quot;https://ialottery.com/pages/games-online/PowerballWin.aspx&quot;, &quot;https://louisianalottery.com/&quot;, &quot;https://www.coloradolottery.com/en/&quot;, &quot;https://www.kslottery.com/powerball/&quot;, &quot;https://www.mainelottery.com/&quot;, &quot;https://www.ohiolottery.com/winningnumbers&quot;], &quot;distribution&quot;: [{&quot;@type&quot;: &quot;DataDownload&quot;, &quot;encodingFormat&quot;: &quot;application/json&quot;, &quot;contentUrl&quot;: &quot;/datasets/latest-draws.json&quot;}, {&quot;@type&quot;: &quot;DataDownload&quot;, &quot;encodingFormat&quot;: &quot;text/csv&quot;, &quot;contentUrl&quot;: &quot;/datasets/latest-draws.csv&quot;}], &quot;variableMeasured&quot;: [{&quot;@type&quot;: &quot;PropertyValue&quot;, &quot;name&quot;: &quot;numbers&quot;}, {&quot;@type&quot;: &quot;PropertyValue&quot;, &quot;name&quot;: &quot;jackpot_usd&quot;, &quot;description&quot;: &quot;primary jackpot (usually annuity)&quot;}, {&quot;@type&quot;: &quot;PropertyValue&quot;, &quot;name&quot;: &quot;jackpot_type&quot;, &quot;description&quot;: &quot;annuity or cash value when known&quot;}, {&quot;@type&quot;: &quot;PropertyValue&quot;, &quot;name&quot;: &quot;cash_value_usd&quot;, &quot;description&quot;: &quot;cash option value when available&quot;}], &quot;hasPart&quot;: [{&quot;@type&quot;: &quot;Dataset&quot;, &quot;name&quot;: &quot;Lottery results — Powerball&quot;, &quot;description&quot;: &quot;Latest Powerball draw results compiled from official sources.&quot;, &quot;keywords&quot;: [&quot;Powerball&quot;, &quot;lottery&quot;, &quot;winning numbers&quot;, &quot;jackpot&quot;, &quot;results&quot;]}]}
+</script>
+<div class='hdr'><h1>Latest Lottery Draws</h1>
+<span class='muted'>Records: 8</span>
+<a class='pill' href='/datasets/latest-draws.json'>JSON</a>
+<a class='pill' href='/datasets/latest-draws.csv'>CSV</a>
+<span class='right muted'>Last updated: 2025-09-15T20:00:00Z</span></div>
+<div class='latest'>
+<div class='muted'>Automatic daily feed</div>
+<h2 style='margin:6px 0'>Latest: Powerball — 2025-09-15</h2>
+<div style='font-size:1.25rem'>Numbers: <strong>28 37 42 50 53 2</strong></div>
+<div>Jackpot: <strong>$30,000,000 (from state site; may be cash value)</strong></div>
+<div>Source: <a href='https://www.coloradolottery.com/en/' rel='nofollow'>link</a></div>
+</div>
+<h2>Summary</h2>
+<p><strong>Daily Lottery Snapshot.</strong> This page compiles official draw results for major US games and refreshes automatically.</p>
+<p><strong>Latest draws</strong>: Powerball: 2025-09-15 — numbers 28 37 42 50 5 1, jackpot $64,000,000 (from state site; may be cash value).</p>
+<p><strong>Notable jackpots</strong>: Powerball $185,800,000 (from state site; may be cash value), Powerball $64,000,000 (from state site; may be cash value), Powerball $64,000,000 (from state site; may be cash value), Powerball $64,000,000 (from state site; may be cash value), Powerball $30,000,000 (from state site; may be cash value).</p>
+<p class='muted'>Sources include: <a href='https://floridalottery.com' rel='nofollow'>floridalottery.com</a> <a href='https://ialottery.com' rel='nofollow'>ialottery.com</a> <a href='https://louisianalottery.com' rel='nofollow'>louisianalottery.com</a> <a href='https://www.coloradolottery.com' rel='nofollow'>www.coloradolottery.com</a> <a href='https://www.kslottery.com' rel='nofollow'>www.kslottery.com</a> <a href='https://www.mainelottery.com' rel='nofollow'>www.mainelottery.com</a> <a href='https://www.ohiolottery.com' rel='nofollow'>www.ohiolottery.com</a></p>
+<div id='editorial' class='muted' style='margin:12px 0'><em>Editorial note:</em> add your daily commentary here.</div>
+<div class='tabs'>
+<button class='tablink active' data-tab='all'>All Games</button>
+<button class='tablink' data-tab='powerball'>Powerball</button>
+</div>
+<div class='section active' id='tab-all'>
+<table><thead><tr><th>Date</th><th>Game</th><th>Numbers</th><th>Jackpot (USD, source-reported)</th><th>Source</th><th>Method</th></tr></thead><tbody>
+<tr><td>2025-09-15</td><td>Powerball</td><td>28 37 42 50 53 2</td><td>30,000,000 (from state site; may be cash value)</td><td><a href='https://www.coloradolottery.com/en/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-15</td><td>Powerball</td><td>28 37 42 50 5 1</td><td>64,000,000 (from state site; may be cash value)</td><td><a href='https://www.kslottery.com/powerball/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-14</td><td>Powerball</td><td>28 37 42 50 53 3</td><td>64,000,000 (from state site; may be cash value)</td><td><a href='https://www.mainelottery.com/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-13</td><td>Powerball</td><td>13 28 37 42 50 3</td><td>64,000,000 (from state site; may be cash value)</td><td><a href='https://ialottery.com/pages/games-online/PowerballWin.aspx' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-13</td><td>Powerball</td><td>17 18 21 42 6 9</td><td>400 (from state site; may be cash value)</td><td><a href='https://www.ohiolottery.com/winningnumbers' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-13</td><td>Powerball</td><td>28 37 42 50 5 19</td><td>15 (from state site; may be cash value)</td><td><a href='https://floridalottery.com/games/winning-numbers' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-12</td><td>Powerball</td><td>17 18 21 42 64 7</td><td>185,800,000 (from state site; may be cash value)</td><td><a href='https://louisianalottery.com/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-09</td><td>Powerball</td><td>13 28 37 42 50 3</td><td>— (from state site; may be cash value)</td><td><a href='https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+</tbody></table></div>
+<div class='section' id='tab-powerball'>
+<h3 style='margin-top:4px'>Powerball</h3>
+<div class='kv'>
+<div><strong>Latest:</strong> 2025-09-15</div>
+<div><strong>Numbers:</strong> 28 37 42 50 5 1</div>
+<div><strong>Jackpot:</strong> $64,000,000 (from state site; may be cash value)</div>
+</div>
+<table><thead><tr><th>Date</th><th>Numbers</th><th>Jackpot (USD, source-reported)</th><th>Source</th><th>Method</th></tr></thead><tbody>
+<tr><td>2025-09-15</td><td>28 37 42 50 53 2</td><td>30,000,000 (from state site; may be cash value)</td><td><a href='https://www.coloradolottery.com/en/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-15</td><td>28 37 42 50 5 1</td><td>64,000,000 (from state site; may be cash value)</td><td><a href='https://www.kslottery.com/powerball/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-14</td><td>28 37 42 50 53 3</td><td>64,000,000 (from state site; may be cash value)</td><td><a href='https://www.mainelottery.com/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-13</td><td>13 28 37 42 50 3</td><td>64,000,000 (from state site; may be cash value)</td><td><a href='https://ialottery.com/pages/games-online/PowerballWin.aspx' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-13</td><td>17 18 21 42 6 9</td><td>400 (from state site; may be cash value)</td><td><a href='https://www.ohiolottery.com/winningnumbers' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-13</td><td>28 37 42 50 5 19</td><td>15 (from state site; may be cash value)</td><td><a href='https://floridalottery.com/games/winning-numbers' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-12</td><td>17 18 21 42 64 7</td><td>185,800,000 (from state site; may be cash value)</td><td><a href='https://louisianalottery.com/' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+<tr><td>2025-09-09</td><td>13 28 37 42 50 3</td><td>— (from state site; may be cash value)</td><td><a href='https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx' rel='nofollow'>src</a></td><td class='muted'>html</td></tr>
+</tbody></table></div>
+
+<script>
+document.querySelectorAll('.tablink').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tablink').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+    btn.classList.add('active');
+    const id = 'tab-' + btn.getAttribute('data-tab');
+    const sec = document.getElementById(id);
+    if (sec) sec.classList.add('active');
+  });
+});
+</script>

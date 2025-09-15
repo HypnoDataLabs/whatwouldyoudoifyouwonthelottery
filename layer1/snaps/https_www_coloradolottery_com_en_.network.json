@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.coloradolottery.com/check-login/",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"is_authenticated\": false}"
+  },
+  {
+    "url": "https://tr.snapchat.com/config/com/bd3b1afe-65b8-4da8-aa45-715efdf4d8dd.json?v=3.47.16-2509111815",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"asc\":[],\"gw\":null,\"a\":[\"PII\",\"AV3\"],\"ipg\":\"1\",\"b\":[],\"cbt\":[],\"t\":\"\",\"v\":\"3.7.5-2401032347\",\"tpd\":[],\"ec\":[]}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  }
+]

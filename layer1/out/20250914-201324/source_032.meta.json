@@ -1,0 +1,37 @@
+{
+  "url": "https://njlottery.com/en-us/drawgames/recentresults.html",
+  "final_url": "https://www.njlottery.com/en-us/error/404.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 89798,
+  "elapsed_sec": 0.949,
+  "fetched_at": "2025-09-14T20:14:41.256029Z",
+  "sha256": "898e7d670d00f821716736528b5571661ffd0f23e72a977bd3f11090da90ee3a",
+  "headers": {
+    "connection": "close",
+    "content-length": "15192",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "last-modified": "Sun, 14 Sep 2025 04:15:04 GMT",
+    "server": "Apache",
+    "content-type": "text/html",
+    "date": "Sun, 14 Sep 2025 20:14:41 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-bur-kbur8200106-BUR, cache-bur-kbur8200105-BUR",
+    "x-cache": "MISS, MISS",
+    "x-cache-hits": "0, 0",
+    "x-timer": "S1757880881.049649,VS0,VE187",
+    "vary": "Accept-Encoding"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://njlottery.com/en-us/drawgames/recentresults.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

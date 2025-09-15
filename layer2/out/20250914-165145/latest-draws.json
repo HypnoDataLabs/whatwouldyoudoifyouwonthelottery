@@ -1,0 +1,23 @@
+{
+  "version": "2025.09.14",
+  "last_updated": "2025-09-14T16:51:45Z",
+  "records": [
+    {
+      "date": "2025-09-14",
+      "game": "Mega Millions",
+      "numbers": [],
+      "jackpot_usd": 202509120000003810000000400000000017500000001858000000020250913001402,
+      "winners": null,
+      "source_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "fetched_at": "2025-09-14T16:51:41.307099Z"
+    }
+  ],
+  "parse_stats": {
+    "": 0,
+    "www.megamillions.com": 1,
+    "www.powerball.com": 0,
+    "walottery.com": 0,
+    "www.mdlottery.com": 0,
+    "www.rilot.com": 0
+  }
+}

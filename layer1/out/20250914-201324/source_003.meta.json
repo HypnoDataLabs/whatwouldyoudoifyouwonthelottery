@@ -1,0 +1,42 @@
+{
+  "url": "https://data.ny.gov/resource/kwxv-fwze.json",
+  "final_url": "https://data.ny.gov/resource/kwxv-fwze.json",
+  "status": 200,
+  "content_type": "application/json",
+  "bytes": 93001,
+  "elapsed_sec": 0.794,
+  "fetched_at": "2025-09-14T20:13:28.228150Z",
+  "sha256": "91c6a8920637f3f73b666aef1ae59646bbb3e007f37ebc60d27cb1bd5370ae31",
+  "headers": {
+    "server": "nginx",
+    "date": "Sun, 14 Sep 2025 20:13:28 GMT",
+    "content-type": "application/json;charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "access-control-allow-origin": "*",
+    "etag": "\"Zm94dHJvdC42MTA2XzEwMzFfNDgyN2hOZjRhVTVNYTZpY2M5bUotcEF4M3owZVdnMA---gzipn1PZrMkjUjtwYR-YbYopHKZt2m--gzip--gzip\"",
+    "x-soda2-fields": "[\"draw_date\",\"winning_numbers\",\"cash_ball\"]",
+    "x-soda2-types": "[\"floating_timestamp\",\"text\",\"text\"]",
+    "x-soda2-data-out-of-date": "false",
+    "x-soda2-truth-last-modified": "Sun, 14 Sep 2025 10:01:23 GMT",
+    "x-soda2-secondary-last-modified": "Sun, 14 Sep 2025 10:01:23 GMT",
+    "last-modified": "Sun, 14 Sep 2025 10:01:23 GMT",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "age": "2",
+    "x-socrata-region": "aws-us-east-1-fedramp-prod",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-socrata-requestid": "1c554b4bf1a6187cf98d7bfadaab8aab"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://data.ny.gov/resource/kwxv-fwze.json",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

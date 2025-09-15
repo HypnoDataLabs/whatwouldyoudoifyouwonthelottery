@@ -1,0 +1,43 @@
+{
+  "url": "https://www.rilot.com/en-us/winning-numbers.html",
+  "final_url": "https://www.rilot.com/en-us/home.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 285230,
+  "elapsed_sec": 1.425,
+  "fetched_at": "2025-09-14T16:25:26.271306Z",
+  "sha256": "630378fa1c40e6d0e380c582cd948d193c67cca4b709ad88fc620f840d1274c2",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 16:25:26 GMT",
+    "content-type": "text/html",
+    "content-length": "285230",
+    "connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "last-modified": "Fri, 12 Sep 2025 16:28:44 GMT",
+    "etag": "\"45a2e-63e9d25c2badb\"",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "X-Accept-Charset, X-Accept, X-Requested-With, Content-Type, origin, authorization, accept",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PUT,DELETE",
+    "access-control-max-age": "1800",
+    "cache-control": "public, max-age=60",
+    "portal-login-errorcode": "(null)",
+    "portal-login-iserror": "(null)",
+    "portal-login-gkse": "(null)",
+    "x-azure-ref": "20250914T162525Z-r17d7dbb565p4j9qhC1LAXrz2000000006qg000000015xzg",
+    "x-cache": "CONFIG_NOCACHE",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.rilot.com/en-us/winning-numbers.html",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}

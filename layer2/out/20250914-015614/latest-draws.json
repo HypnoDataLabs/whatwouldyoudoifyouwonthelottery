@@ -1,0 +1,22 @@
+{
+  "version": "2025.09.14",
+  "last_updated": "2025-09-14T01:56:14.123957Z",
+  "records": [
+    {
+      "date": "2025-09-14",
+      "game": "Powerball",
+      "numbers": [
+        1,
+        12,
+        23,
+        34,
+        45,
+        10
+      ],
+      "jackpot_usd": 100000000,
+      "winners": 0,
+      "source_url": "https://www.powerball.com/",
+      "fetched_at": "2025-09-14T01:56:14.123957Z"
+    }
+  ]
+}

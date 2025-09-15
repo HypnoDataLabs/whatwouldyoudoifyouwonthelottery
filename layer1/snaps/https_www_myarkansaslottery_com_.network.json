@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://tr.snapchat.com/config/com/23afb8bd-01bb-4db2-8554-e4b7cab898d0.json?v=3.47.16-2509111815",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"asc\":[],\"gw\":null,\"a\":[\"PII\",\"AV3\"],\"ipg\":\"1\",\"b\":[],\"cbt\":[],\"t\":\"\",\"v\":\"3.7.5-2401032347\",\"tpd\":[],\"ec\":[]}"
+  },
+  {
+    "url": "https://px.premion.com/log-pixel?pxid=680b94e8a8e493ba9486aec2",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\"Ipaddress\":\"47.159.148.180\"}"
+  },
+  {
+    "url": "https://bcp.crwdcntrl.net/6/map",
+    "status": 200,
+    "contentType": "application/json;charset=utf-8",
+    "body": "{\"pid\":\"6a8936ccaef0fcf7e9d554331fef4657\",\"c\":[{\"k\":\"_cc_id\",\"v\":\"6a8936ccaef0fcf7e9d554331fef4657\",\"e\":23328000}],\"ids\":[{\"i\":\"dbebd00259516b8a72b69ff81bb5185ca02cf8ebce2721e6fb5518af8ffeacd0\",\"t\":\"c\",\"c\":\"core\",\"e\":\"1758490396269\"}]}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  }
+]

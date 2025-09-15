@@ -1,0 +1,38 @@
+{
+  "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+  "final_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+  "status": 200,
+  "content_type": "text/xml",
+  "bytes": 7236,
+  "elapsed_sec": 0.307,
+  "fetched_at": "2025-09-14T17:22:59.136592Z",
+  "sha256": "36c3f491c0bf573e9995ccf8566b913ec668e952512781a07e676204eb0cccfe",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 17:22:59 GMT",
+    "content-type": "text/xml; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "cf-ray": "97f191ce0deb2a9b-LAX",
+    "cf-cache-status": "DYNAMIC",
+    "cache-control": "private, max-age=0",
+    "set-cookie": "__cfwaitingroom=Chg5SUFERG95TkZITzVsV1dTVnZhWG1nPT0SkAJoa1FhRlV2UHgyTzJJd2haeVVDeUFPYlo2OXNxRjlQeXd0K0V2cjQzSU9GTVpYcHI3OEZmcVdidFBTWE85Qi9vdjlWRmdPVGN6cVF1c2VJTkFnSGRLUjNoc0VMMjVCV1k2YitnRGhKRVAwa2VTUEZzandsTE1RNURSVW4yS1JqdW92aG9vYjdUY2Q3alZjMnZqRUVMVWV3NUtxNGN6eWhZV1J6S05sTFhDNTFCZjA5bEJueGZzNVVnd0QwQm9hNkY5SVY3VEVrNFd6MnJpU1pvWkMyQytYUlIzWDZuUitYU1pWRHp5TDJOeEtOalBUNG1NRmJJbzZTQ3pPY2pIWU1HbUVzazQ3OVV1VTNIS3FESw%3D%3D; Path=/; Expires=Sun, 14 Sep 2025 17:23:59 GMT; HttpOnly; Secure; SameSite=None; Partitioned",
+    "x-aspnet-version": "4.0.30319",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "ASP.NET",
+    "vary": "Accept-Encoding",
+    "server": "cloudflare"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "X-Requested-With": "XMLHttpRequest"
+  }
+}

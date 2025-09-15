@@ -1,0 +1,25 @@
+{
+  "url": "https://www.michiganlottery.com/games/draw-games",
+  "final_url": "https://www.michiganlottery.com/games/draw-games",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 6111,
+  "elapsed_sec": 0.326,
+  "fetched_at": "2025-09-14T02:06:30.307914Z",
+  "sha256": "4f9ea03dd1dddf643f27053814d935becd6f2cae32f1804a2c1535e7d80a2c1d",
+  "headers": {
+    "content-length": "6111",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 14 Sep 2025 02:06:30 GMT",
+    "etag": "W/\"17df-mPi2HFLzDOCV2X+UZnOkYhPAy+k\"",
+    "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=1WsFJbc4l2ZUOlyJX9SpooLChJjdYS0qIw2ZAhZFFA4%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1757815590\"}],\"max_age\":3600}",
+    "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=1WsFJbc4l2ZUOlyJX9SpooLChJjdYS0qIw2ZAhZFFA4%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1757815590\"",
+    "server": "Heroku",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "via": "1.1 heroku-router",
+    "x-powered-by": "Express",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

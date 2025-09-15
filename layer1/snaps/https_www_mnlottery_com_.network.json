@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://api.hubapi.com/hs-script-loader-public/v1/config/pixels-and-events/json?portalId=1630007",
+    "status": 200,
+    "contentType": "application/json;charset=utf-8",
+    "body": "{\"pixels\":{\"FACEBOOK\":[{\"pixelId\":\"1636492806644816\",\"limitedDataUseEnabled\":false}]},\"enhancedConversionEventSettings\":{}}"
+  },
+  {
+    "url": "https://widget.gameon.mnlottery.com/asset-manifest.json",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\n  \"files\": {\n    \"static/js/0.0c602af6.chunk.js\": \"/static/js/0.0c602af6.chunk.js\",\n    \"static/js/1.bdd86327.chunk.js\": \"/static/js/1.bdd86327.chunk.js\",\n    \"main.css\": \"/static/css/main.2ea913d4.chunk.css\",\n    \"main.js\": \"/static/js/main.52892c89.chunk.js\",\n    \"runtime-main.js\": \"/static/js/runtime-main.77198de3.js\",\n    \"static/js/4.c8bfa51a.chunk.js\": \"/static/js/4.c8bfa51a.chunk.js\",\n    \"static/js/5.06c9d899.chunk.js\": \"/static/js/5.06c9d899.chunk.js\",\n    \"static/js/6.3d2fcb03.chunk.js\": \"/static/js/6.3d2fcb03.chunk.js\",\n    \"static/js/7.b0fb44d7.chunk.js\": \"/static/js/7.b0fb44d7.chunk.js\",\n    \"static/js/8.899ae2bb.chunk.js\": \"/static/js/8.899ae2bb.chunk.js\",\n    \"static/js/9.1715ef2c.chunk.js\": \"/static/js/9.1715ef2c.chunk.js\",\n    \"static/js/10.6bf03da5.chunk.js\": \"/static/js/10.6bf03da5.chunk.js\",\n    \"static/js/11.2798a7b3.chunk.js\": \"/static/js/11.2798a7b3.chunk.js\",\n    \"static/js/12.8946f712.chunk.js\": \"/static/js/12.8946f712.chunk.js\",\n    \"static/js/13.87731216.chunk.js\": \"/static/js/13.87731216.chunk.js\",\n    \"static/js/14.225d733d.chunk.js\": \"/static/js/14.225d733d.chunk.js\",\n    \"static/js/15.d062e834.chunk.js\": \"/static/js/15.d062e834.chunk.js\",\n    \"static/js/16.1d691859.chunk.js\": \"/static/js/16.1d691859.chunk.js\",\n    \"static/js/17.e4c81d8c.chunk.js\": \"/static/js/17.e4c81d8c.chunk.js\",\n    \"static/js/18.0c4030b2.chunk.js\": \"/static/js/18.0c4030b2.chunk.js\",\n    \"static/js/19.1b1e048c.chunk.js\": \"/static/js/19.1b1e048c.chunk.js\",\n    \"index.html\": \"/index.html\",\n    \"static/js/4.c8bfa51a.chunk.js.LICENSE.txt\": \"/static/js/4.c8bfa51a.chunk.js.LICENSE.txt\",\n    \"static/media/app.scss\": \"/static/media/pbl-mobile-fonticon.73b0cd8e.woff\",\n    \"static/media/getFetch.cjs\": \"/static/media/getFetch.5fde86e3.cjs\"\n  },\n  \"entrypoints\": [\n    \"static/js/runtime-main.77198de3.js\",\n    \"static/js/4.c8bfa51a.chunk.js\",\n    \"static/css/main.2ea913d4.chunk.css\",\n    \"static/js/main.52892c89.chunk.js\"\n  ]\n}"
+  },
+  {
+    "url": "https://people.api.boomtrain.com/identify/resolve?data=eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiMTU5MTM4ZjctMWQ1OS00ZjkzLWE4OTItNDJiZGYyYWFmNWRjOjE3NTc4ODU1OTUuNzE3NzI5MyJ9fQ%3D%3D&site_id=mn-lottery",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"app_id\":\"mn-lottery\",\"bsin\":\"u4r1auuZqyXumWCKbDNFWG48+gp8mz2eqbtfEYbyt5me8FKZmBx3U+IlQpkOg9fqEnaW1+m2bPEadaSgc8YdDg==\",\"is_identified\":false}\n"
+  },
+  {
+    "url": "https://gateway.gameon.mnlottery.com/auth/check/session",
+    "status": 403,
+    "contentType": "application/problem+json",
+    "body": "{\"type\":\"//problem-with-message\",\"title\":\"Forbidden\",\"status\":403,\"detail\":\"Access Denied\",\"instance\":\"/auth/check/session\",\"status\":403,\"message\":\"error.http.403\",\"path\":\"/auth/check/session\"}"
+  },
+  {
+    "url": "https://firebaseinstallations.googleapis.com/v1/projects/mn-gameon-prod/installations",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\n  \"name\": \"projects/895511210681/installations/fONQ3JChjomIHdHtivLa1n\",\n  \"fid\": \"fONQ3JChjomIHdHtivLa1n\",\n  \"refreshToken\": \"3_AS3qfwKUzWMPNIOYQnEx7xbpaRpSCK-v9MrHKeXXNWt66kdc2xnkSJA-Z5Mds9fwI-elFuL4u2m8VR7TqR3SpKTZ23PpwNGL2nEacqLFSJiwkA\",\n  \"authToken\": {\n    \"token\": \"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjE6ODk1NTExMjEwNjgxOndlYjo1Mjk3MDdlZjY3Y2E2MDYzZjAwOTY4IiwiZXhwIjoxNzU4NDkwNTI0LCJmaWQiOiJmT05RM0pDaGpvbUlIZEh0aXZMYTFuIiwicHJvamVjdE51bWJlciI6ODk1NTExMjEwNjgxfQ.AB2LPV8wRAIgRT2p0CvFCBvl4srqPjHZeoMkDd4IATxctm4I0BjQW_8CIGeQ87DhJR6K3RwrYSfqs-zkcO0OhaIBXUe_5Lno-A9Z\",\n    \"expiresIn\": \"604800s\"\n  }\n}\n"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  },
+  {
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"Message\":null,\"EventResponses\":[]}"
+  },
+  {
+    "url": "https://firebaseremoteconfig.googleapis.com/v1/projects/mn-gameon-prod/namespaces/firebase:fetch?key=AIzaSyCrkKqRD4A4eD6n9vOPQzPePezAwGdT8Ug",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\n  \"entries\": {\n    \"ANDROID_DOWNLOAD_URL\": \"https://play.google.com/store/apps/details?id=com.mnlottery.app&hl=en_US&gl=US\",\n    \"ANDROID_LATEST_BUILD\": \"1753725254\",\n    \"ANDROID_LATEST_VERSION\": \"1.0.18\",\n    \"FEATURE_FLAGS\": \"HIDE_TOPPRIZE_TYPE_FOR_PICK3,SORT_GAMES_BY_PLAYBEGIN,HIDE_FAB_ICON,ACCOUNT_DELETION,MINNESOTA_V1,AUTHENTICATION_V2,USE_JACKPOT_SERVICE,SHOW_LOTTO_UNCLAIMED_PRIZES,SORT_LOTTO_GAMES_BY_DISPLAYORDER,FETCH_WINNERS_PROMOTION,HIDE_MULTIPLIER,SHOW_SOCIAL_SHARE\",\n    \"FORCE_UPDATE\": \"0\",\n    \"IOS_DOWNLOAD_URL\": \"https://apps.apple.com/us/app/mn-lottery/id6469874034\",\n    \"IOS_LATEST_BUILD\": \"1753725254\",\n    \"IOS_LATEST_VERSION\": \"1.0.18\",\n    \"NUMBER_CHECKER_GAME_CONFIGS\": \"[\\n  {\\n    \\\"gameId\\\": 9,\\n    \\\"main\\\": {\\n      \\\"from\\\": 0,\\n      \\\"to\\\": 9,\\n      \\\"digitCount\\\": 3\\n    },\\n    \\\"addon\\\": null\\n  },\\n  {\\n    \\\"gameId\\\": 10,\\n    \\\"main\\\": {\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 47,\\n      \\\"digitCount\\\": 5\\n    },\\n    \\\"addon\\\": null\\n  },\\n  {\\n    \\\"gameId\\\": 12,\\n    \\\"main\\\": {\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 69,\\n      \\\"digitCount\\\": 5\\n    },\\n    \\\"addon\\\": {\\n      \\\"title\\\": \\\"Power Play\\\",\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 26,\\n      \\\"digitCount\\\": 1\\n    }\\n  },\\n  {\\n    \\\"gameId\\\": 16,\\n    \\\"main\\\": {\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 34,\\n      \\\"digitCount\\\": 5\\n    },\\n    \\\"addon\\\": null\\n  },\\n  {\\n    \\\"gameId\\\": 19,\\n    \\\"main\\\": {\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 70,\\n      \\\"digitCount\\\": 5\\n    },\\n    \\\"addon\\\": {\\n      \\\"title\\\": \\\"Megaplier\\\",\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 25,\\n      \\\"digitCount\\\": 1\\n    },\\n    \\\"paidOption\\\": {\\n      \\\"title\\\": \\\"Megaplier\\\",\\n      \\\"isVisible\\\": true\\n    },\\n    \\\"winningMessage\\\": \\\"To calculate the total prize amount won, use the amount won and multiply by the Megaplier or Multiplier on your ticket.\\\"\\n  },\\n  {\\n    \\\"gameId\\\": 24,\\n    \\\"main\\\": {\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 52,\\n      \\\"digitCount\\\": 5\\n    },\\n    \\\"addon\\\": {\\n      \\\"title\\\": \\\"All Star Bonus\\\",\\n      \\\"from\\\": 1,\\n      \\\"to\\\": 10,\\n      \\\"digitCount\\\": 1\\n    }\\n  }\\n]\",\n    \"OUTAGE_BANNER_CONFIG\": \"{\\n  \\\"body\\\": \\\"Parts of the website will be down for maintenance on January 9th, starting around 5AM. If you encounter any errors or missing functionality, please check back later.\\\",\\n  \\\"displayTime\\\": \\\"100000\\\",\\n  \\\"flag\\\": \\\"false\\\",\\n  \\\"startDate\\\": \\\"2025-01-09T05:00:00Z\\\",\\n  \\\"endDate\\\": \\\"2025-01-09T08:00:00Z\\\"\\n}\",\n    \"OUTAGE_CONFIG\": \"{\\n\\\"startDate\\\": \\\"2025-01-09T11:00:00Z\\\",\\n\\\"endDate\\\": \\\"2025-01-09T14:00:00Z\\\",\\n\\\"body\\\":\\\"Parts of the app will be down for maintenance on January 9th, starting around 5AM. If you encounter any errors or missing functionality, please check back later.\\\",\\n\\\"flag\\\": \\\"false\\\", \\n\\\"outageType\\\": \\\"PLANNED\\\"\\n}\",\n    \"SCANNER_ENABLE_GOOGLE_VISION\": \"true\",\n    \"SCANNER_ENABLE_GRAY_SCALE_SCAN\": \"true\",\n    \"SCANNER_ENABLE_ROTATION_SCAN\": \"false\",\n    \"SCANNER_ENABLE_TORCH\": \"true\",\n    \"SCANNER_SHOW_ANIMATION_LINE\": \"false\",\n    \"SCANNER_SHOW_BAR_CODE_MASK\": \"true\",\n    \"UNCLAIMED_GAME_MAP\": \"{\\\"26\\\":\\\"27\\\"}\",\n    \"UPDATE_APP_BODY\": \"Hey there! 👋 A new version of the app is available - update now to check out the latest features and improvements!\",\n    \"UPDATE_APP_BUTTON\": \"UPDATE NOW\",\n    \"UPDATE_APP_TITLE\": \"App Update Available\"\n  },\n  \"state\": \"UPDATE\",\n  \"templateVersion\": \"10\"\n}\n"
+  },
+  {
+    "url": "https://gateway.gameon.mnlottery.com/services/device/api/v1/device-info",
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"deviceKey\":\"0448e516-d3c2-408e-b584-b915791a0598\"}"
+  },
+  {
+    "url": "https://gateway.gameon.mnlottery.com/auth/check/session",
+    "status": 403,
+    "contentType": "application/problem+json",
+    "body": "{\"type\":\"//problem-with-message\",\"title\":\"Forbidden\",\"status\":403,\"detail\":\"Access Denied\",\"instance\":\"/auth/check/session\",\"status\":403,\"message\":\"error.http.403\",\"path\":\"/auth/check/session\"}"
+  }
+]

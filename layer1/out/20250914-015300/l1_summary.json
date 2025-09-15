@@ -1,0 +1,203 @@
+{
+  "summary": {
+    "run_id": "20250914-015300",
+    "count": 5,
+    "ok": 5,
+    "skipped": 0,
+    "ts": "2025-09-14T01:53:03.690391Z",
+    "out_dir": "layer1/out/20250914-015300",
+    "hosts": {
+      "www.powerball.com": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 71320
+      },
+      "www.megamillions.com": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 7236
+      },
+      "www.luckyforlife.us": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 31758
+      },
+      "www.lottoamerica.com": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 15007
+      },
+      "www.cash4lifelottery.net": {
+        "ok": 1,
+        "fail": 0,
+        "bytes": 1120
+      }
+    },
+    "defaults": {
+      "per_host_delay": 0.2,
+      "jitter_min": 0.1,
+      "jitter_max": 0.3,
+      "timeout_sec": 12,
+      "max_retries": 2,
+      "backoff_base": 0.3,
+      "backoff_cap": 1.2,
+      "respect_robots": false
+    }
+  },
+  "fetched": [
+    {
+      "index": 1,
+      "url": "https://www.powerball.com/api/v1/numbers/powerball/recent?_format=json",
+      "ok": true,
+      "path": "layer1/out/20250914-015300/source_001.html",
+      "bytes": 71320,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T01:53:01.153781Z",
+      "elapsed_sec": 0.419,
+      "error": null,
+      "host": "www.powerball.com",
+      "final_url": "https://www.powerball.com/previous-results?gc=powerball",
+      "sha256": "8e998e6bcd1d795ec5dc288cad288f3eba14222b4c502c2bc929ed2ca2383a28",
+      "headers": {
+        "date": "Sun, 14 Sep 2025 01:53:01 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "9926",
+        "connection": "close",
+        "age": "26",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-ms-middleware-request-id": "00000000-0000-0000-0000-000000000000",
+        "request-context": "appId=cid-v1:b618f7b5-f03a-4b45-a6fa-23e05262ea9c",
+        "referrer-policy": "no-referrer",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "1; mode=block",
+        "permissions-policy": "accelerometer=(self \"https://www.youtube.com\"), autoplay=(self \"https://www.youtube.com\"), browsing-topics=(), camera=(), display-capture=(), encrypted-media=(*), fullscreen=(self \"https://www.youtube.com\"), geolocation=(), gyroscope=(*), hid=(), identity-credentials-get=(), idle-detection=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self \"https://www.youtube.com\"), publickey-credentials-get=(), screen-wake-lock=(), serial=(), storage-access=(), usb=(), web-share=(self \"https://www.youtube.com\"), window-management=(), xr-spatial-tracking=()",
+        "content-security-policy": "block-all-mixed-content;frame-ancestors 'none';upgrade-insecure-requests;",
+        "x-azure-ref": "20250914T015301Z-r17d7dbb565pktvzhC1LAX58nc000000051g000000003avu",
+        "x-cache": "CONFIG_NOCACHE",
+        "accept-ranges": "bytes"
+      }
+    },
+    {
+      "index": 2,
+      "url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "ok": true,
+      "path": "layer1/out/20250914-015300/source_002.xml",
+      "bytes": 7236,
+      "content_type": "text/xml",
+      "status": 200,
+      "fetched_at": "2025-09-14T01:53:01.566798Z",
+      "elapsed_sec": 0.228,
+      "error": null,
+      "host": "www.megamillions.com",
+      "final_url": "https://www.megamillions.com/cmspages/utilservice.asmx/GetLatestDrawData",
+      "sha256": "36c3f491c0bf573e9995ccf8566b913ec668e952512781a07e676204eb0cccfe",
+      "headers": {
+        "date": "Sun, 14 Sep 2025 01:53:01 GMT",
+        "content-type": "text/xml; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "content-encoding": "gzip",
+        "cf-ray": "97ec3f8f9cdacb9e-LAX",
+        "cf-cache-status": "DYNAMIC",
+        "cache-control": "private, max-age=0",
+        "set-cookie": "__cfwaitingroom=ChhGQVZ6Qy9MN3BYLzJDT3Vubm15ajRnPT0SkAI2eHZMcG5WRFBDTGMxbmorM2FxbU5CNzNYUU5BcnU1dXBJTWkveisyQWRpaXVVcFpvQ2VHbXRGeE1sZXc1cjJGd0MvcWF4elh5MERPSkh1MjFyZkVoeHlmZVdUVUgzMWVMQ3c0L3M1Y0J1RHlleThlSHQ5YlE3SEw3REl1MWw0NEJhYVF2WjIzYXZ1UTlzTmp4eVlrVEVEQm9vUlhWamtIRzVqa3habzFxaFlLTjVpVWpTcSs2eGMvcmRPVlR3NTBBeVFscThkTXJwZ2ZwZXhJNndEUGxTZ1gwc2hhMXhOZU80NTJCZ3pDM0FFNEVUZi94aEdNQWN6ZGdOZWFiY1ZScXV2OS9WY2FFQjhBMkJraQ%3D%3D; Path=/; Expires=Sun, 14 Sep 2025 01:54:01 GMT; HttpOnly; Secure; SameSite=None; Partitioned",
+        "x-aspnet-version": "4.0.30319",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "ASP.NET",
+        "vary": "Accept-Encoding",
+        "server": "cloudflare"
+      }
+    },
+    {
+      "index": 3,
+      "url": "https://www.luckyforlife.us/",
+      "ok": true,
+      "path": "layer1/out/20250914-015300/source_003.html",
+      "bytes": 31758,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T01:53:02.163196Z",
+      "elapsed_sec": 0.476,
+      "error": null,
+      "host": "www.luckyforlife.us",
+      "final_url": "https://www.luckyforlife.us/",
+      "sha256": "d58452b1192c8f210fe32786328c5295f62216ad6c05f3bc79861e507c1563cd",
+      "headers": {
+        "content-length": "19947",
+        "connection": "close",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 14 Sep 2025 01:53:01 GMT",
+        "server": "Microsoft-IIS/10.0",
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "set-cookie": "ARRAffinitySameSite=5db844ca5baebb46d17e7dfecb655ab0f850116356185f2d3dde4214236bd45d;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.luckyforlife.us",
+        "vary": "Accept-Encoding",
+        "x-aspnet-version": "4.0.30319",
+        "x-powered-by": "ASP.NET"
+      }
+    },
+    {
+      "index": 4,
+      "url": "https://www.lottoamerica.com/",
+      "ok": true,
+      "path": "layer1/out/20250914-015300/source_004.html",
+      "bytes": 15007,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T01:53:02.609215Z",
+      "elapsed_sec": 0.315,
+      "error": null,
+      "host": "www.lottoamerica.com",
+      "final_url": "https://www.lottoamerica.com/",
+      "sha256": "39274d9b49d16e0fd44ee2d9c5238ea080cee68e51fa9d6f0ac1e739ba88dd48",
+      "headers": {
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "content-type": "text/html; charset=utf-8",
+        "content-encoding": "gzip",
+        "expires": "-1",
+        "last-modified": "Thu, 11 Sep 2025 03:52:02 BST",
+        "vary": "User-Agent,Accept-Encoding",
+        "server": "Microsoft-IIS/10.0",
+        "x-aspnet-version": "4.0.30319",
+        "set-cookie": "AdvInt=caa8bf83-14de-45d1-8182-e162283eefcc|XOJgyEDOCxBTqMai3bViUA==:7C6DqdCh/sctWI21LAMbjP2lny8LuNo0Q/4+MJFaQfN0IWeQl/PDdOpFCLVLQ/MhRZzEPdq1EnprZ9K5hjiHV/lpdI6pO/+lslnnUNuuvysRgarE6Ycf1zwzuN+RLY/LEAc03e1BxjgBmO3uO2xBJA==; expires=Fri, 13-Mar-2026 02:53:02 GMT; path=/",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-powered-by": "ASP.NET",
+        "x-frame-options": "deny",
+        "x-xss-protection": "1; mode=block",
+        "date": "Sun, 14 Sep 2025 01:53:02 GMT",
+        "connection": "close",
+        "content-length": "5176"
+      }
+    },
+    {
+      "index": 5,
+      "url": "https://www.cash4lifelottery.net/",
+      "ok": true,
+      "path": "layer1/out/20250914-015300/source_005.html",
+      "bytes": 1120,
+      "content_type": "text/html",
+      "status": 200,
+      "fetched_at": "2025-09-14T01:53:03.490551Z",
+      "elapsed_sec": 0.722,
+      "error": null,
+      "host": "www.cash4lifelottery.net",
+      "final_url": "https://www.cash4lifelottery.net/",
+      "sha256": "7eeadd45f448bf88fd6d437d4f665945efa8552ce15d2a0996aced51c20d8894",
+      "headers": {
+        "server": "openresty",
+        "date": "Sun, 14 Sep 2025 01:52:53 GMT",
+        "content-type": "text/html",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "x-sc-h": "21-l79d",
+        "via": "1.1 google"
+      }
+    }
+  ]
+}

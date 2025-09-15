@@ -1,0 +1,17 @@
+{
+  "url": "https://www.kansaslottery.com/winning-numbers",
+  "final_url": "https://www.kansaslottery.com/winning-numbers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 173,
+  "elapsed_sec": 0.146,
+  "fetched_at": "2025-09-14T02:06:06.568986Z",
+  "sha256": "ac56c1da65fb3f4e3bb6931d9d738b9af3ec018e4b1f827b0c65ace53ce1c581",
+  "headers": {
+    "content-type": "text/html",
+    "date": "Sun, 14 Sep 2025 02:06:06 GMT",
+    "content-length": "173",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+}

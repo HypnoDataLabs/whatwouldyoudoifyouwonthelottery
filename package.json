@@ -1,0 +1,15 @@
+{
+  "name": "uniform-quality-standard-oil",
+  "version": "1.0.0",
+  "description": "One-command static data refinery: fetch -> parse -> publish -> verify -> atomic ship.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

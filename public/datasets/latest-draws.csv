@@ -1,0 +1,9 @@
+date,game,numbers,jackpot_usd,jackpot_type,cash_value_usd,source_url,extraction_method
+2025-09-13,Powerball,13 28 37 42 50 3,64000000,,,https://ialottery.com/pages/games-online/PowerballWin.aspx,html
+2025-09-15,Powerball,28 37 42 50 53 2,30000000,,,https://www.coloradolottery.com/en/,html
+2025-09-14,Powerball,28 37 42 50 53 3,64000000,,,https://www.mainelottery.com/,html
+2025-09-13,Powerball,17 18 21 42 6 9,400,,,https://www.ohiolottery.com/winningnumbers,html
+2025-09-12,Powerball,17 18 21 42 64 7,185800000,,,https://louisianalottery.com/,html
+2025-09-15,Powerball,28 37 42 50 5 1,64000000,,,https://www.kslottery.com/powerball/,html
+2025-09-13,Powerball,28 37 42 50 5 19,15,,,https://floridalottery.com/games/winning-numbers,html
+2025-09-09,Powerball,13 28 37 42 50 3,,,,https://ialottery.com/pages/games-online/LuckyForLifeWin.aspx,html

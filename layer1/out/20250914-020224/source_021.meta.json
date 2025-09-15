@@ -1,0 +1,17 @@
+{
+  "url": "https://www.oklottery.com/winning",
+  "final_url": "https://www.oklottery.com/winning",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 161,
+  "elapsed_sec": 0.145,
+  "fetched_at": "2025-09-14T02:06:14.903591Z",
+  "sha256": "1e89d93b9133a394c350ec262afc2d6d50f838e74b52147bcb56d65e403be06e",
+  "headers": {
+    "content-type": "text/html",
+    "date": "Sun, 14 Sep 2025 02:06:14 GMT",
+    "content-length": "161",
+    "connection": "close"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.oregonlottery.org/draw-results/",
+  "final_url": "https://www.oregonlottery.org/404-2/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 63746,
+  "elapsed_sec": 0.568,
+  "fetched_at": "2025-09-14T20:14:58.058109Z",
+  "sha256": "38e6d51ae17c9628d2fd435881117f0c10d926a9cd3fa14f146874c9878e0bc7",
+  "headers": {
+    "date": "Sun, 14 Sep 2025 20:14:57 GMT",
+    "content-type": "text/html",
+    "content-length": "63746",
+    "connection": "close",
+    "etag": "\"1dc243d38de3b02\"",
+    "last-modified": "Fri, 12 Sep 2025 23:30:28 GMT",
+    "request-context": "appId=cid-v1:be07b2ef-09f7-40df-99d6-03acb191e649",
+    "x-azure-ref": "20250914T201457Z-1694bbbfcd9q2d9phC1SJCt0fg00000007w0000000006b5r",
+    "cache-control": "public, max-age=900",
+    "x-fd-int-roxy-purgeid": "15",
+    "x-cache": "TCP_REVALIDATED_HIT",
+    "x-cache-info": "L2_T1",
+    "accept-ranges": "bytes"
+  },
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://www.oregonlottery.org/draw-results/",
+    "Connection": "close",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+  }
+}
