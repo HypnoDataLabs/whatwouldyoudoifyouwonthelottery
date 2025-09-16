@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "7 10 * * *"   # daily at 10:07 UTC
   workflow_dispatch:
-  push:                     # run on small edits to these paths
+  push:                     # run on edits to these paths
     branches: [main]
     paths:
       - 'layer1/**'
@@ -18,7 +18,7 @@ on:
       - 'package.json'
       - '.github/workflows/daily.yaml'
 
-# grant GITHUB_TOKEN write where allowed
+# allow writes with GITHUB_TOKEN where org policy permits
 permissions:
   contents: write
 
@@ -101,10 +101,8 @@ jobs:
   # 📧 Optional failure email (only runs if SMTP secrets exist)
   notify-on-failure:
     needs: build
-    if: failure() && env.HAS_SMTP != ''
+    if: failure() && secrets.SMTP_SERVER != ''   # use secrets.* at job-level
     runs-on: ubuntu-latest
-    env:
-      HAS_SMTP: ${{ secrets.SMTP_SERVER || '' }}
     steps:
       - name: Send failure email
         uses: dawidd6/action-send-mail@v3
@@ -121,9 +119,7 @@ jobs:
           priority: high
           body: |
             Daily build failed for whatwouldyoudoifyouwonthelottery.
-
             Repo: ${{ github.repository }}
             Run:  ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
             Ref:  ${{ github.ref }}
-
             Please check the Actions logs.
