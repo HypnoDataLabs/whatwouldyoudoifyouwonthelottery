@@ -4,8 +4,21 @@ on:
   schedule:
     - cron: "7 10 * * *"   # daily at 10:07 UTC
   workflow_dispatch:
+  push:                     # run on small edits to these paths
+    branches: [main]
+    paths:
+      - 'layer1/**'
+      - 'layer2/**'
+      - 'layer3/**'
+      - 'scripts/**'
+      - 'data/**'
+      - 'blog/**'
+      - 'feeds/**'
+      - 'config/**'
+      - 'package.json'
+      - '.github/workflows/daily.yaml'
 
-# Try to give the job write access; some orgs require this.
+# grant GITHUB_TOKEN write where allowed
 permissions:
   contents: write
 
