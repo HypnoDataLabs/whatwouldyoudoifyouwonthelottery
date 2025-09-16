@@ -2,12 +2,18 @@ name: daily-build
 
 on:
   schedule:
-    - cron: "7 10 * * *"   # 03:07 AM America/Los_Angeles (UTC-7) ≈ 10:07 UTC
+    - cron: "7 10 * * *"   # daily at 10:07 UTC
   workflow_dispatch:
+
+# Try to give the job write access; some orgs require this.
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HAS_PAT: ${{ secrets.ACTIONS_TOKEN || '' }}   # optional PAT (classic) with repo scope
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,13 +57,33 @@ jobs:
           print("latest.json OK —", len(d['records']), "records")
           PY
 
-      # 🧠 Commit only if there were changes
-      - name: Commit & push if changes
+      # 🧠 Commit using GITHUB_TOKEN when org allows write
+      - name: Commit & push (GITHUB_TOKEN)
+        if: env.HAS_PAT == ''    # only if no PAT provided
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto: publish datasets & blog ($(date -u +'%Y-%m-%d'))"
           branch: main
           push_options: --force-with-lease
+
+      # 🔐 Commit & push using PAT fallback (bypasses read-only token policy)
+      - name: Commit changes (manual)
+        if: env.HAS_PAT != ''    # only if PAT provided
+        run: |
+          git config user.name "HypnoData Bot"
+          git config user.email "bot@hypnodatalabs"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"; exit 0
+          fi
+          git commit -m "Auto: publish datasets & blog ($(date -u +'%Y-%m-%d'))"
+
+      - name: Push (PAT)
+        if: env.HAS_PAT != ''    # only if PAT provided
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.ACTIONS_TOKEN }}
+          branch: main
 
   # 📧 Optional failure email (only runs if SMTP secrets exist)
   notify-on-failure:
